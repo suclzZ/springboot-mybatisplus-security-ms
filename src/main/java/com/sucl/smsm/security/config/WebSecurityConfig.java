@@ -45,8 +45,8 @@ import java.util.Map;
  * @author sucl
  * @date 2019/4/28
  */
-@Configuration
-@EnableWebSecurity
+//@Configuration
+//@EnableWebSecurity
 @EnableConfigurationProperties(WebSecurityProperties.class)
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     @Autowired

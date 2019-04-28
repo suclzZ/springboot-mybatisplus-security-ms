@@ -1,7 +1,7 @@
 package com.sucl.smsm.core.service;
 
 
-import com.sucl.smsm.security.user.IUser;
+//import com.sucl.smsm.security.user.IUser;
 
 /**
  *
@@ -9,8 +9,8 @@ import com.sucl.smsm.security.user.IUser;
  */
 public interface MenuProviderService {
 
-    String menuHtml(IUser user);
+    String menuHtml(Object user);
 
-    String menuHtml(IUser user, String expand);
+    String menuHtml(Object user, String expand);
 
 }
