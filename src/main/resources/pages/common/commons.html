@@ -1,0 +1,32 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+    <body>
+        <th:block th:fragment="common-css">
+            <!--<link rel="stylesheet" type="text/css" th:href="@{/webjars/bootstrap/css/bootstrap.min.css}"/>-->
+            <link rel="stylesheet" type="text/css" th:href="@{/webjars/font-awesome/css/font-awesome.min.css}"/>
+            <link rel="stylesheet" type="text/css" th:href="@{/webjars/jstree/themes/default/style.min.css}"/>
+            <!-- Main CSS-->
+            <link rel="stylesheet" type="text/css" th:href="@{/css/main.css}"/>
+            <link rel="stylesheet" type="text/css" th:href="@{/css/app.css}"/>
+        </th:block>
+
+        <th:block th:fragment="common-js">
+            <script type="text/javascript" th:src="@{/webjars/bootstrap/js/bootstrap.min.js}"></script>
+            <script type="text/javascript" th:src="@{/webjars/jstree/jstree.min.js}"></script>
+            <!-- The javascript plugin to display page loading on top-->
+            <script type="text/javascript" th:src="@{/js/plugins/pace.min.js}"></script>
+            <script type="text/javascript" th:src="@{/js/plugins/popper.min.js}"></script>
+            <!-- Page specific javascripts-->
+            <script type="text/javascript" th:src="@{/js/plugins/chart.js}"></script>
+            <script type="text/javascript" th:src="@{/js/plugins/bootstrap-notify.min.js}"></script>
+            <script type="text/javascript" th:src="@{/js/plugins/jquery.dataTables.min.js}"></script>
+            <script type="text/javascript" th:src="@{/js/plugins/dataTables.bootstrap.min.js}"></script>
+
+            <script type="text/javascript" th:src="@{/js/main.js}"></script>
+
+            <script type="text/javascript" th:src="@{/js/ui/vali.core.js}"></script>
+            <script type="text/javascript" th:src="@{/js/ui/vali.component.js}"></script>
+            <script type="text/javascript" th:src="@{/js/ui/vali.table.js}"></script>
+            <script type="text/javascript" th:src="@{/js/ui/vali.form.js}"></script>
+        </th:block>
+    </body>
+</html>

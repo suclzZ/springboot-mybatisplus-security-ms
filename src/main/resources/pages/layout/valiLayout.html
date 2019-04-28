@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html class="fixed" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="common/html5::head"></head>
+
+<body class="app sidebar-mini rtl">
+<!-- Navbar-->
+<header class="app-header">
+    <a class="app-header__logo" href="index.html">Jh</a>
+    <!-- Sidebar toggle button-->
+    <a class="app-sidebar__toggle" href="#" data-toggle="sidebar"></a>
+    <!-- Navbar Right Menu-->
+    <ul class="app-nav">
+        <li class="app-search hidden">
+            <input class="app-search__input" type="search" placeholder="Search">
+            <button class="app-search__button"><i class="fa fa-search"></i></button>
+        </li>
+        <!-- User Menu-->
+        <li class="dropdown"><a class="app-nav__item" href="#" data-toggle="dropdown" aria-label="Open Profile Menu"><i
+                class="fa fa-user fa-lg"></i></a>
+            <ul class="dropdown-menu settings-menu dropdown-menu-right">
+                <li><a class="dropdown-item" href="page-user.html"><i class="fa fa-cog fa-lg"></i> 设置</a></li>
+                <li><a class="dropdown-item" href="page-user.html"><i class="fa fa-user fa-lg"></i> 个人信息</a></li>
+                <li><a class="dropdown-item" href="login.html"><i class="fa fa-sign-out fa-lg"></i> 登出</a></li>
+            </ul>
+        </li>
+    </ul>
+</header>
+<!-- Sidebar menu-->
+<div class="app-sidebar__overlay" data-toggle="sidebar"></div>
+<aside class="app-sidebar">
+    <ul class="app-menu" th:utext="${menu}"></ul>
+</aside>
+<main id="page-content" class="app-content "><!-- container-fluid  -->
+    <div class="app-title">
+        <div>
+            <!--<h1><i class="fa fa-dashboard"></i><th:block th:text="${menuText}"></th:block></h1>-->
+            <h5 th:text="${menuText}"><i class="fa fa-dashboard"></i></h5>
+        </div>
+        <ul class="app-breadcrumb breadcrumb">
+            <li class="breadcrumb-item"><i class="fa fa-home fa-lg"></i></li>
+            <li class="breadcrumb-item"><a href="index">主页</a></li>
+        </ul>
+    </div>
+    <div th:replace="::app-content"></div>
+</main>
+
+<div th:replace="common/modal::message"></div>
+<div th:replace="common/commons::common-js"></div>
+
+</body>
+<script>
+    $(function(){
+        var $cpager = $('#page-content').children().eq(1);
+        //可以在这做组件初始化
+    })
+</script>
+</html>

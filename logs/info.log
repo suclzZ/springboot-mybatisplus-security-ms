@@ -1,0 +1,704 @@
+2019-04-28 16:26:56.467 [restartedMain] INFO  com.sucl.smsm.Application - Starting Application on sucl with PID 12960 (F:\blog\springboot-mybatisplus-security-ms\target\classes started by DELL in F:\blog\springboot-mybatisplus-security-ms)
+2019-04-28 16:26:56.471 [restartedMain] INFO  com.sucl.smsm.Application - No active profile set, falling back to default profiles: default
+2019-04-28 16:26:56.538 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@32225067: startup date [Sun Apr 28 16:26:56 CST 2019]; root of context hierarchy
+2019-04-28 16:26:56.640 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2019-04-28 16:26:57.669 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@32225067: startup date [Sun Apr 28 16:26:56 CST 2019]; root of context hierarchy
+2019-04-28 16:27:41.514 [restartedMain] INFO  com.sucl.smsm.Application - Starting Application on sucl with PID 26956 (F:\blog\springboot-mybatisplus-security-ms\target\classes started by DELL in F:\blog\springboot-mybatisplus-security-ms)
+2019-04-28 16:27:41.518 [restartedMain] INFO  com.sucl.smsm.Application - No active profile set, falling back to default profiles: default
+2019-04-28 16:27:41.578 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@54bf0d1a: startup date [Sun Apr 28 16:27:41 CST 2019]; root of context hierarchy
+2019-04-28 16:27:41.693 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2019-04-28 16:27:43.411 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8081 (http)
+2019-04-28 16:27:43.422 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-28 16:27:43.423 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.27
+2019-04-28 16:27:43.528 [localhost-startStop-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/smsm] - Initializing Spring embedded WebApplicationContext
+2019-04-28 16:27:43.528 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1954 ms
+2019-04-28 16:27:43.733 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-04-28 16:27:43.734 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-04-28 16:27:43.734 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-04-28 16:27:43.734 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-04-28 16:27:43.735 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2019-04-28 16:27:43.736 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-04-28 16:27:44.055 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-04-28 16:30:26.674 [restartedMain] INFO  com.sucl.smsm.Application - Starting Application on sucl with PID 27124 (F:\blog\springboot-mybatisplus-security-ms\target\classes started by DELL in F:\blog\springboot-mybatisplus-security-ms)
+2019-04-28 16:30:26.676 [restartedMain] INFO  com.sucl.smsm.Application - No active profile set, falling back to default profiles: default
+2019-04-28 16:30:26.741 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@41cca75d: startup date [Sun Apr 28 16:30:26 CST 2019]; root of context hierarchy
+2019-04-28 16:30:26.836 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2019-04-28 16:30:28.534 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8081 (http)
+2019-04-28 16:30:28.544 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-28 16:30:28.545 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.27
+2019-04-28 16:30:28.653 [localhost-startStop-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/smsm] - Initializing Spring embedded WebApplicationContext
+2019-04-28 16:30:28.653 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1916 ms
+2019-04-28 16:30:28.873 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-04-28 16:30:28.874 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-04-28 16:30:28.874 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-04-28 16:30:28.875 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-04-28 16:30:28.876 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2019-04-28 16:30:28.876 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-04-28 16:30:29.234 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-04-28 16:30:52.594 [restartedMain] INFO  com.sucl.smsm.Application - Starting Application on sucl with PID 30116 (F:\blog\springboot-mybatisplus-security-ms\target\classes started by DELL in F:\blog\springboot-mybatisplus-security-ms)
+2019-04-28 16:30:52.597 [restartedMain] INFO  com.sucl.smsm.Application - No active profile set, falling back to default profiles: default
+2019-04-28 16:30:52.657 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@54bf0d1a: startup date [Sun Apr 28 16:30:52 CST 2019]; root of context hierarchy
+2019-04-28 16:30:52.755 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2019-04-28 16:30:54.423 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8081 (http)
+2019-04-28 16:30:54.441 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-28 16:30:54.441 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.27
+2019-04-28 16:30:54.556 [localhost-startStop-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/smsm] - Initializing Spring embedded WebApplicationContext
+2019-04-28 16:30:54.557 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1904 ms
+2019-04-28 16:30:54.783 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-04-28 16:30:54.784 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-04-28 16:30:54.784 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-04-28 16:30:54.784 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-04-28 16:30:54.785 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2019-04-28 16:30:54.785 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-04-28 16:30:55.101 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-04-28 16:36:06.713 [restartedMain] INFO  com.sucl.smsm.Application - Starting Application on sucl with PID 29712 (F:\blog\springboot-mybatisplus-security-ms\target\classes started by DELL in F:\blog\springboot-mybatisplus-security-ms)
+2019-04-28 16:36:06.715 [restartedMain] INFO  com.sucl.smsm.Application - No active profile set, falling back to default profiles: default
+2019-04-28 16:36:06.780 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2190a4eb: startup date [Sun Apr 28 16:36:06 CST 2019]; root of context hierarchy
+2019-04-28 16:36:06.879 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2019-04-28 16:36:08.605 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8081 (http)
+2019-04-28 16:36:08.615 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-28 16:36:08.616 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.27
+2019-04-28 16:36:08.716 [localhost-startStop-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/smsm] - Initializing Spring embedded WebApplicationContext
+2019-04-28 16:36:08.716 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1940 ms
+2019-04-28 16:36:08.934 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-04-28 16:36:08.935 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-04-28 16:36:08.935 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-04-28 16:36:08.935 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-04-28 16:36:08.936 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2019-04-28 16:36:08.937 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-04-28 16:36:09.254 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-04-28 16:38:26.647 [restartedMain] INFO  com.sucl.smsm.Application - Starting Application on sucl with PID 29648 (F:\blog\springboot-mybatisplus-security-ms\target\classes started by DELL in F:\blog\springboot-mybatisplus-security-ms)
+2019-04-28 16:38:26.650 [restartedMain] INFO  com.sucl.smsm.Application - No active profile set, falling back to default profiles: default
+2019-04-28 16:38:26.714 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2e927345: startup date [Sun Apr 28 16:38:26 CST 2019]; root of context hierarchy
+2019-04-28 16:38:26.801 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2019-04-28 16:38:28.513 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8081 (http)
+2019-04-28 16:38:28.524 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-28 16:38:28.525 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.27
+2019-04-28 16:38:28.624 [localhost-startStop-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/smsm] - Initializing Spring embedded WebApplicationContext
+2019-04-28 16:38:28.625 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1914 ms
+2019-04-28 16:38:28.856 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-04-28 16:38:28.856 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-04-28 16:38:28.856 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-04-28 16:38:28.857 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-04-28 16:38:28.858 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2019-04-28 16:38:28.858 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-04-28 16:38:29.229 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-04-28 16:39:07.525 [restartedMain] INFO  com.sucl.smsm.Application - Starting Application on sucl with PID 30188 (F:\blog\springboot-mybatisplus-security-ms\target\classes started by DELL in F:\blog\springboot-mybatisplus-security-ms)
+2019-04-28 16:39:07.529 [restartedMain] INFO  com.sucl.smsm.Application - No active profile set, falling back to default profiles: default
+2019-04-28 16:39:07.603 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@93afd9: startup date [Sun Apr 28 16:39:07 CST 2019]; root of context hierarchy
+2019-04-28 16:39:07.718 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2019-04-28 16:39:09.475 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8081 (http)
+2019-04-28 16:39:09.485 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-28 16:39:09.486 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.27
+2019-04-28 16:39:09.604 [localhost-startStop-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/smsm] - Initializing Spring embedded WebApplicationContext
+2019-04-28 16:39:09.605 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2006 ms
+2019-04-28 16:39:09.824 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-04-28 16:39:09.825 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-04-28 16:39:09.825 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-04-28 16:39:09.825 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-04-28 16:39:09.826 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2019-04-28 16:39:09.826 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-04-28 16:39:10.879 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-04-28 16:40:23.704 [restartedMain] INFO  com.sucl.smsm.Application - Starting Application on sucl with PID 30104 (F:\blog\springboot-mybatisplus-security-ms\target\classes started by DELL in F:\blog\springboot-mybatisplus-security-ms)
+2019-04-28 16:40:23.708 [restartedMain] INFO  com.sucl.smsm.Application - No active profile set, falling back to default profiles: default
+2019-04-28 16:40:23.785 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@103f6949: startup date [Sun Apr 28 16:40:23 CST 2019]; root of context hierarchy
+2019-04-28 16:40:23.866 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2019-04-28 16:40:25.540 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8081 (http)
+2019-04-28 16:40:25.553 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-28 16:40:25.554 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.27
+2019-04-28 16:40:25.669 [localhost-startStop-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/smsm] - Initializing Spring embedded WebApplicationContext
+2019-04-28 16:40:25.670 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1889 ms
+2019-04-28 16:40:25.884 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-04-28 16:40:25.885 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-04-28 16:40:25.885 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-04-28 16:40:25.885 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-04-28 16:40:25.886 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2019-04-28 16:40:25.886 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-04-28 16:40:26.767 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-04-28 16:41:38.112 [restartedMain] INFO  com.sucl.smsm.Application - Starting Application on sucl with PID 26688 (F:\blog\springboot-mybatisplus-security-ms\target\classes started by DELL in F:\blog\springboot-mybatisplus-security-ms)
+2019-04-28 16:41:38.115 [restartedMain] INFO  com.sucl.smsm.Application - No active profile set, falling back to default profiles: default
+2019-04-28 16:41:38.177 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@41cca75d: startup date [Sun Apr 28 16:41:38 CST 2019]; root of context hierarchy
+2019-04-28 16:41:38.293 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2019-04-28 16:41:39.991 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8081 (http)
+2019-04-28 16:41:40.007 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-28 16:41:40.008 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.27
+2019-04-28 16:41:40.113 [localhost-startStop-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/smsm] - Initializing Spring embedded WebApplicationContext
+2019-04-28 16:41:40.113 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1939 ms
+2019-04-28 16:41:40.387 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-04-28 16:41:40.388 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-04-28 16:41:40.388 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-04-28 16:41:40.388 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-04-28 16:41:40.389 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2019-04-28 16:41:40.389 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-04-28 16:41:41.292 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-04-28 16:43:01.572 [restartedMain] INFO  com.sucl.smsm.Application - Starting Application on sucl with PID 26780 (F:\blog\springboot-mybatisplus-security-ms\target\classes started by DELL in F:\blog\springboot-mybatisplus-security-ms)
+2019-04-28 16:43:01.576 [restartedMain] INFO  com.sucl.smsm.Application - No active profile set, falling back to default profiles: default
+2019-04-28 16:43:01.642 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3bd0b867: startup date [Sun Apr 28 16:43:01 CST 2019]; root of context hierarchy
+2019-04-28 16:43:01.748 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2019-04-28 16:43:03.444 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8081 (http)
+2019-04-28 16:43:03.456 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-28 16:43:03.458 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.27
+2019-04-28 16:43:03.572 [localhost-startStop-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/smsm] - Initializing Spring embedded WebApplicationContext
+2019-04-28 16:43:03.572 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1933 ms
+2019-04-28 16:43:03.773 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-04-28 16:43:03.774 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-04-28 16:43:03.774 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-04-28 16:43:03.774 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-04-28 16:43:03.775 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2019-04-28 16:43:03.775 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-04-28 16:43:04.657 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-04-28 16:44:02.420 [restartedMain] INFO  com.sucl.smsm.Application - Starting Application on sucl with PID 30136 (F:\blog\springboot-mybatisplus-security-ms\target\classes started by DELL in F:\blog\springboot-mybatisplus-security-ms)
+2019-04-28 16:44:02.425 [restartedMain] INFO  com.sucl.smsm.Application - No active profile set, falling back to default profiles: default
+2019-04-28 16:44:02.487 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@93afd9: startup date [Sun Apr 28 16:44:02 CST 2019]; root of context hierarchy
+2019-04-28 16:44:02.592 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2019-04-28 16:44:04.265 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8081 (http)
+2019-04-28 16:44:04.275 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-28 16:44:04.276 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.27
+2019-04-28 16:44:04.368 [localhost-startStop-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/smsm] - Initializing Spring embedded WebApplicationContext
+2019-04-28 16:44:04.368 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1885 ms
+2019-04-28 16:44:04.581 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-04-28 16:44:04.582 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-04-28 16:44:04.582 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-04-28 16:44:04.582 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-04-28 16:44:04.583 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2019-04-28 16:44:04.583 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-04-28 16:44:05.456 [restartedMain] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: 1421905d-3248-4585-a323-a4303ed0c2e3
+
+2019-04-28 16:44:05.515 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/statics/**'], []
+2019-04-28 16:44:05.516 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, []
+2019-04-28 16:44:05.676 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4fd77813, org.springframework.security.web.context.SecurityContextPersistenceFilter@c0dfcad, org.springframework.security.web.header.HeaderWriterFilter@597fb749, org.springframework.security.web.csrf.CsrfFilter@18b22805, org.springframework.security.web.authentication.logout.LogoutFilter@2091b69, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3394a4d2, org.springframework.security.web.session.ConcurrentSessionFilter@6934540a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3c6def6f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@10ebd623, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@28d1435a, org.springframework.security.web.session.SessionManagementFilter@380d73e5, org.springframework.security.web.access.ExceptionTranslationFilter@20d42d38, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2d884b77]
+2019-04-28 16:44:06.106 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@93afd9: startup date [Sun Apr 28 16:44:02 CST 2019]; root of context hierarchy
+2019-04-28 16:44:06.182 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept/{id}],methods=[GET]}" onto protected M com.sucl.smsm.core.web.BaseController.get(java.lang.String)
+2019-04-28 16:44:06.184 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept],methods=[PUT]}" onto protected boolean com.sucl.smsm.core.web.BaseController.update(M,com.baomidou.mybatisplus.core.conditions.query.QueryWrapper<M>)
+2019-04-28 16:44:06.184 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept/{id}],methods=[DELETE]}" onto protected void com.sucl.smsm.core.web.BaseController.delete(java.lang.String)
+2019-04-28 16:44:06.184 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept],methods=[GET]}" onto protected java.util.List<M> com.sucl.smsm.core.web.BaseController.list(M)
+2019-04-28 16:44:06.185 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept],methods=[POST],consumes=[application/json;charset=UTF-8]}" onto protected boolean com.sucl.smsm.core.web.BaseController.saveOrUpdate(M)
+2019-04-28 16:44:06.185 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept],methods=[POST],consumes=[application/x-www-form-urlencoded]}" onto protected boolean com.sucl.smsm.core.web.BaseController.saveOrUpdate2(M)
+2019-04-28 16:44:06.186 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept/pager],methods=[GET]}" onto protected com.baomidou.mybatisplus.core.metadata.IPage<M> com.sucl.smsm.core.web.BaseController.getPage(com.baomidou.mybatisplus.extension.plugins.pagination.Page<M>,com.baomidou.mybatisplus.core.conditions.query.QueryWrapper<M>)
+2019-04-28 16:44:06.187 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept],methods=[PATCH]}" onto protected boolean com.sucl.smsm.core.web.BaseController.patchUpdate(M)
+2019-04-28 16:44:06.192 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user/{id}],methods=[GET]}" onto protected M com.sucl.smsm.core.web.BaseController.get(java.lang.String)
+2019-04-28 16:44:06.193 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user],methods=[PUT]}" onto protected boolean com.sucl.smsm.core.web.BaseController.update(M,com.baomidou.mybatisplus.core.conditions.query.QueryWrapper<M>)
+2019-04-28 16:44:06.193 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user/{id}],methods=[DELETE]}" onto protected void com.sucl.smsm.core.web.BaseController.delete(java.lang.String)
+2019-04-28 16:44:06.194 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user],methods=[GET]}" onto protected java.util.List<M> com.sucl.smsm.core.web.BaseController.list(M)
+2019-04-28 16:44:06.194 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user],methods=[POST],consumes=[application/json;charset=UTF-8]}" onto protected boolean com.sucl.smsm.core.web.BaseController.saveOrUpdate(M)
+2019-04-28 16:44:06.195 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user],methods=[POST],consumes=[application/x-www-form-urlencoded]}" onto protected boolean com.sucl.smsm.core.web.BaseController.saveOrUpdate2(M)
+2019-04-28 16:44:06.195 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user/pager],methods=[GET]}" onto protected com.baomidou.mybatisplus.core.metadata.IPage<M> com.sucl.smsm.core.web.BaseController.getPage(com.baomidou.mybatisplus.extension.plugins.pagination.Page<M>,com.baomidou.mybatisplus.core.conditions.query.QueryWrapper<M>)
+2019-04-28 16:44:06.196 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user],methods=[PATCH]}" onto protected boolean com.sucl.smsm.core.web.BaseController.patchUpdate(M)
+2019-04-28 16:44:06.198 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-04-28 16:44:06.199 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-04-28 16:44:06.236 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-28 16:44:06.237 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-28 16:44:06.284 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-28 16:44:06.550 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-04-28 16:44:06.674 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-04-28 16:44:06.695 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-04-28 16:44:06.705 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-04-28 16:44:06.717 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-04-28 16:44:06.734 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8081 (http)
+2019-04-28 16:44:06.739 [restartedMain] INFO  com.sucl.smsm.Application - Started Application in 4.634 seconds (JVM running for 6.005)
+2019-04-28 16:44:22.609 [restartedMain] INFO  com.sucl.smsm.Application - Starting Application on sucl with PID 26812 (F:\blog\springboot-mybatisplus-security-ms\target\classes started by DELL in F:\blog\springboot-mybatisplus-security-ms)
+2019-04-28 16:44:22.612 [restartedMain] INFO  com.sucl.smsm.Application - No active profile set, falling back to default profiles: default
+2019-04-28 16:44:22.676 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@32225067: startup date [Sun Apr 28 16:44:22 CST 2019]; root of context hierarchy
+2019-04-28 16:44:22.773 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2019-04-28 16:44:24.416 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8081 (http)
+2019-04-28 16:44:24.427 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-28 16:44:24.428 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.27
+2019-04-28 16:44:24.550 [localhost-startStop-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/smsm] - Initializing Spring embedded WebApplicationContext
+2019-04-28 16:44:24.550 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1877 ms
+2019-04-28 16:44:24.779 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-04-28 16:44:24.780 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-04-28 16:44:24.780 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-04-28 16:44:24.780 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-04-28 16:44:24.783 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2019-04-28 16:44:24.783 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-04-28 16:44:25.718 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-04-28 16:45:50.185 [restartedMain] INFO  com.sucl.smsm.Application - Starting Application on sucl with PID 30080 (F:\blog\springboot-mybatisplus-security-ms\target\classes started by DELL in F:\blog\springboot-mybatisplus-security-ms)
+2019-04-28 16:45:50.188 [restartedMain] INFO  com.sucl.smsm.Application - No active profile set, falling back to default profiles: default
+2019-04-28 16:45:50.262 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4c547c58: startup date [Sun Apr 28 16:45:50 CST 2019]; root of context hierarchy
+2019-04-28 16:45:50.352 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2019-04-28 16:45:52.129 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8081 (http)
+2019-04-28 16:45:52.142 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-28 16:45:52.143 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.27
+2019-04-28 16:45:52.240 [localhost-startStop-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/smsm] - Initializing Spring embedded WebApplicationContext
+2019-04-28 16:45:52.240 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1982 ms
+2019-04-28 16:45:52.451 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-04-28 16:45:52.452 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-04-28 16:45:52.452 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-04-28 16:45:52.452 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-04-28 16:45:52.453 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2019-04-28 16:45:52.454 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-04-28 16:46:02.686 [restartedMain] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: 7dc3f426-c3ae-429d-820e-3fbe1297819c
+
+2019-04-28 16:46:02.747 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/statics/**'], []
+2019-04-28 16:46:02.747 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, []
+2019-04-28 16:46:02.878 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@711c76b7, org.springframework.security.web.context.SecurityContextPersistenceFilter@199a8515, org.springframework.security.web.header.HeaderWriterFilter@4f49972d, org.springframework.security.web.csrf.CsrfFilter@39154a1b, org.springframework.security.web.authentication.logout.LogoutFilter@6f05f0bc, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4fd9ed56, org.springframework.security.web.session.ConcurrentSessionFilter@bc41ebc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6590f67c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@52c83bf6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@681e8bec, org.springframework.security.web.session.SessionManagementFilter@23bf9f7c, org.springframework.security.web.access.ExceptionTranslationFilter@329e6424, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@62612100]
+2019-04-28 16:46:03.198 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4c547c58: startup date [Sun Apr 28 16:45:50 CST 2019]; root of context hierarchy
+2019-04-28 16:46:03.371 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept/{id}],methods=[GET]}" onto protected M com.sucl.smsm.core.web.BaseController.get(java.lang.String)
+2019-04-28 16:46:03.372 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept],methods=[PUT]}" onto protected boolean com.sucl.smsm.core.web.BaseController.update(M,com.baomidou.mybatisplus.core.conditions.query.QueryWrapper<M>)
+2019-04-28 16:46:03.372 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept/{id}],methods=[DELETE]}" onto protected void com.sucl.smsm.core.web.BaseController.delete(java.lang.String)
+2019-04-28 16:46:03.373 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept],methods=[GET]}" onto protected java.util.List<M> com.sucl.smsm.core.web.BaseController.list(M)
+2019-04-28 16:46:03.373 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept],methods=[POST],consumes=[application/x-www-form-urlencoded]}" onto protected boolean com.sucl.smsm.core.web.BaseController.saveOrUpdate2(M)
+2019-04-28 16:46:03.373 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept/pager],methods=[GET]}" onto protected com.baomidou.mybatisplus.core.metadata.IPage<M> com.sucl.smsm.core.web.BaseController.getPage(com.baomidou.mybatisplus.extension.plugins.pagination.Page<M>,com.baomidou.mybatisplus.core.conditions.query.QueryWrapper<M>)
+2019-04-28 16:46:03.373 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept],methods=[POST],consumes=[application/json;charset=UTF-8]}" onto protected boolean com.sucl.smsm.core.web.BaseController.saveOrUpdate(M)
+2019-04-28 16:46:03.374 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept],methods=[PATCH]}" onto protected boolean com.sucl.smsm.core.web.BaseController.patchUpdate(M)
+2019-04-28 16:46:03.376 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user/{id}],methods=[GET]}" onto protected M com.sucl.smsm.core.web.BaseController.get(java.lang.String)
+2019-04-28 16:46:03.376 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user],methods=[PUT]}" onto protected boolean com.sucl.smsm.core.web.BaseController.update(M,com.baomidou.mybatisplus.core.conditions.query.QueryWrapper<M>)
+2019-04-28 16:46:03.377 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user/{id}],methods=[DELETE]}" onto protected void com.sucl.smsm.core.web.BaseController.delete(java.lang.String)
+2019-04-28 16:46:03.377 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user],methods=[GET]}" onto protected java.util.List<M> com.sucl.smsm.core.web.BaseController.list(M)
+2019-04-28 16:46:03.377 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user],methods=[POST],consumes=[application/x-www-form-urlencoded]}" onto protected boolean com.sucl.smsm.core.web.BaseController.saveOrUpdate2(M)
+2019-04-28 16:46:03.377 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user/pager],methods=[GET]}" onto protected com.baomidou.mybatisplus.core.metadata.IPage<M> com.sucl.smsm.core.web.BaseController.getPage(com.baomidou.mybatisplus.extension.plugins.pagination.Page<M>,com.baomidou.mybatisplus.core.conditions.query.QueryWrapper<M>)
+2019-04-28 16:46:03.377 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user],methods=[POST],consumes=[application/json;charset=UTF-8]}" onto protected boolean com.sucl.smsm.core.web.BaseController.saveOrUpdate(M)
+2019-04-28 16:46:03.378 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user],methods=[PATCH]}" onto protected boolean com.sucl.smsm.core.web.BaseController.patchUpdate(M)
+2019-04-28 16:46:03.379 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-04-28 16:46:03.380 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-04-28 16:46:03.432 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-28 16:46:03.432 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-28 16:46:03.481 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-28 16:46:03.742 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-04-28 16:46:03.872 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-04-28 16:46:03.894 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-04-28 16:46:03.904 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-04-28 16:46:03.921 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-04-28 16:46:03.941 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8081 (http)
+2019-04-28 16:46:03.946 [restartedMain] INFO  com.sucl.smsm.Application - Started Application in 14.067 seconds (JVM running for 15.468)
+2019-04-28 16:46:40.235 [restartedMain] INFO  com.sucl.smsm.Application - Starting Application on sucl with PID 30528 (F:\blog\springboot-mybatisplus-security-ms\target\classes started by DELL in F:\blog\springboot-mybatisplus-security-ms)
+2019-04-28 16:46:40.238 [restartedMain] INFO  com.sucl.smsm.Application - No active profile set, falling back to default profiles: default
+2019-04-28 16:46:40.304 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@93afd9: startup date [Sun Apr 28 16:46:40 CST 2019]; root of context hierarchy
+2019-04-28 16:46:40.420 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2019-04-28 16:46:42.306 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8081 (http)
+2019-04-28 16:46:42.319 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-28 16:46:42.320 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.27
+2019-04-28 16:46:42.420 [localhost-startStop-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/smsm] - Initializing Spring embedded WebApplicationContext
+2019-04-28 16:46:42.420 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2119 ms
+2019-04-28 16:46:42.628 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-04-28 16:46:42.629 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-04-28 16:46:42.629 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-04-28 16:46:42.629 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-04-28 16:46:42.630 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2019-04-28 16:46:42.630 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-04-28 16:48:38.287 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-04-28 16:49:10.685 [restartedMain] INFO  com.sucl.smsm.Application - Starting Application on sucl with PID 28984 (F:\blog\springboot-mybatisplus-security-ms\target\classes started by DELL in F:\blog\springboot-mybatisplus-security-ms)
+2019-04-28 16:49:10.690 [restartedMain] INFO  com.sucl.smsm.Application - No active profile set, falling back to default profiles: default
+2019-04-28 16:49:10.765 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@41cca75d: startup date [Sun Apr 28 16:49:10 CST 2019]; root of context hierarchy
+2019-04-28 16:49:10.869 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2019-04-28 16:49:12.547 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8081 (http)
+2019-04-28 16:49:12.557 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-28 16:49:12.558 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.27
+2019-04-28 16:49:12.651 [localhost-startStop-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/smsm] - Initializing Spring embedded WebApplicationContext
+2019-04-28 16:49:12.652 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1891 ms
+2019-04-28 16:49:12.874 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-04-28 16:49:12.874 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-04-28 16:49:12.875 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-04-28 16:49:12.875 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-04-28 16:49:12.876 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2019-04-28 16:49:12.876 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-04-28 16:49:21.843 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-04-28 16:54:51.515 [restartedMain] INFO  com.sucl.smsm.Application - Starting Application on sucl with PID 30292 (F:\blog\springboot-mybatisplus-security-ms\target\classes started by DELL in F:\blog\springboot-mybatisplus-security-ms)
+2019-04-28 16:54:51.517 [restartedMain] INFO  com.sucl.smsm.Application - No active profile set, falling back to default profiles: default
+2019-04-28 16:54:51.578 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@93afd9: startup date [Sun Apr 28 16:54:51 CST 2019]; root of context hierarchy
+2019-04-28 16:54:51.681 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2019-04-28 16:54:53.328 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8081 (http)
+2019-04-28 16:54:53.338 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-28 16:54:53.339 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.27
+2019-04-28 16:54:53.434 [localhost-startStop-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/smsm] - Initializing Spring embedded WebApplicationContext
+2019-04-28 16:54:53.434 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1859 ms
+2019-04-28 16:54:53.648 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-04-28 16:54:53.649 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-04-28 16:54:53.649 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-04-28 16:54:53.649 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-04-28 16:54:53.650 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2019-04-28 16:54:53.650 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-04-28 16:54:57.475 [restartedMain] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: bd5af97b-a153-43a3-9703-36624a0d81c2
+
+2019-04-28 16:54:57.551 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/statics/**'], []
+2019-04-28 16:54:57.552 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, []
+2019-04-28 16:54:57.674 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@269be364, org.springframework.security.web.context.SecurityContextPersistenceFilter@4169db23, org.springframework.security.web.header.HeaderWriterFilter@3e8f9af9, org.springframework.security.web.csrf.CsrfFilter@787a3e43, org.springframework.security.web.authentication.logout.LogoutFilter@188de3c7, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@939a097, org.springframework.security.web.session.ConcurrentSessionFilter@1f1b5d01, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@70dba68d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2e28ea10, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6815894d, org.springframework.security.web.session.SessionManagementFilter@3009842f, org.springframework.security.web.access.ExceptionTranslationFilter@71fb67e9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@24e682a5]
+2019-04-28 16:54:57.991 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@93afd9: startup date [Sun Apr 28 16:54:51 CST 2019]; root of context hierarchy
+2019-04-28 16:54:58.139 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept/{id}],methods=[GET]}" onto protected M com.sucl.smsm.core.web.BaseController.get(java.lang.String)
+2019-04-28 16:54:58.140 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept],methods=[PUT]}" onto protected boolean com.sucl.smsm.core.web.BaseController.update(M,com.baomidou.mybatisplus.core.conditions.query.QueryWrapper<M>)
+2019-04-28 16:54:58.141 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept/{id}],methods=[DELETE]}" onto protected void com.sucl.smsm.core.web.BaseController.delete(java.lang.String)
+2019-04-28 16:54:58.141 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept],methods=[GET]}" onto protected java.util.List<M> com.sucl.smsm.core.web.BaseController.list(M)
+2019-04-28 16:54:58.141 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept/pager],methods=[GET]}" onto protected com.baomidou.mybatisplus.core.metadata.IPage<M> com.sucl.smsm.core.web.BaseController.getPage(com.baomidou.mybatisplus.extension.plugins.pagination.Page<M>,com.baomidou.mybatisplus.core.conditions.query.QueryWrapper<M>)
+2019-04-28 16:54:58.141 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept],methods=[POST],consumes=[application/x-www-form-urlencoded]}" onto protected boolean com.sucl.smsm.core.web.BaseController.saveOrUpdate2(M)
+2019-04-28 16:54:58.142 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept],methods=[PATCH]}" onto protected boolean com.sucl.smsm.core.web.BaseController.patchUpdate(M)
+2019-04-28 16:54:58.142 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept],methods=[POST],consumes=[application/json;charset=UTF-8]}" onto protected boolean com.sucl.smsm.core.web.BaseController.saveOrUpdate(M)
+2019-04-28 16:54:58.144 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user/{id}],methods=[GET]}" onto protected M com.sucl.smsm.core.web.BaseController.get(java.lang.String)
+2019-04-28 16:54:58.144 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user],methods=[PUT]}" onto protected boolean com.sucl.smsm.core.web.BaseController.update(M,com.baomidou.mybatisplus.core.conditions.query.QueryWrapper<M>)
+2019-04-28 16:54:58.144 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user/{id}],methods=[DELETE]}" onto protected void com.sucl.smsm.core.web.BaseController.delete(java.lang.String)
+2019-04-28 16:54:58.144 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user],methods=[GET]}" onto protected java.util.List<M> com.sucl.smsm.core.web.BaseController.list(M)
+2019-04-28 16:54:58.145 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user/pager],methods=[GET]}" onto protected com.baomidou.mybatisplus.core.metadata.IPage<M> com.sucl.smsm.core.web.BaseController.getPage(com.baomidou.mybatisplus.extension.plugins.pagination.Page<M>,com.baomidou.mybatisplus.core.conditions.query.QueryWrapper<M>)
+2019-04-28 16:54:58.145 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user],methods=[POST],consumes=[application/x-www-form-urlencoded]}" onto protected boolean com.sucl.smsm.core.web.BaseController.saveOrUpdate2(M)
+2019-04-28 16:54:58.145 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user],methods=[PATCH]}" onto protected boolean com.sucl.smsm.core.web.BaseController.patchUpdate(M)
+2019-04-28 16:54:58.145 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user],methods=[POST],consumes=[application/json;charset=UTF-8]}" onto protected boolean com.sucl.smsm.core.web.BaseController.saveOrUpdate(M)
+2019-04-28 16:54:58.147 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-04-28 16:54:58.147 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-04-28 16:54:58.187 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-28 16:54:58.187 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-28 16:54:58.240 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-28 16:54:58.495 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-04-28 16:54:58.613 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-04-28 16:54:58.634 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-04-28 16:54:58.644 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-04-28 16:54:58.657 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-04-28 16:54:58.674 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8081 (http)
+2019-04-28 16:54:58.679 [restartedMain] INFO  com.sucl.smsm.Application - Started Application in 7.486 seconds (JVM running for 8.812)
+2019-04-28 16:56:59.612 [restartedMain] INFO  com.sucl.smsm.Application - Starting Application on sucl with PID 29116 (F:\blog\springboot-mybatisplus-security-ms\target\classes started by DELL in F:\blog\springboot-mybatisplus-security-ms)
+2019-04-28 16:56:59.615 [restartedMain] INFO  com.sucl.smsm.Application - No active profile set, falling back to default profiles: default
+2019-04-28 16:56:59.689 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@32225067: startup date [Sun Apr 28 16:56:59 CST 2019]; root of context hierarchy
+2019-04-28 16:56:59.784 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2019-04-28 16:57:01.446 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8081 (http)
+2019-04-28 16:57:01.456 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-28 16:57:01.457 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.27
+2019-04-28 16:57:01.562 [localhost-startStop-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/smsm] - Initializing Spring embedded WebApplicationContext
+2019-04-28 16:57:01.562 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1876 ms
+2019-04-28 16:57:01.782 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-04-28 16:57:01.782 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-04-28 16:57:01.782 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-04-28 16:57:01.783 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-04-28 16:57:01.784 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2019-04-28 16:57:01.784 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-04-28 16:57:02.560 [restartedMain] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: 5892e121-e53b-423e-b649-06d960a2b300
+
+2019-04-28 16:57:02.653 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/statics/**'], []
+2019-04-28 16:57:02.653 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, []
+2019-04-28 16:57:02.787 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@681f7a71, org.springframework.security.web.context.SecurityContextPersistenceFilter@83772d1, org.springframework.security.web.header.HeaderWriterFilter@361ec1f2, org.springframework.security.web.csrf.CsrfFilter@56f4719d, org.springframework.security.web.authentication.logout.LogoutFilter@240d5f1b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4f5186a8, org.springframework.security.web.session.ConcurrentSessionFilter@30903f1b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@713629ea, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@210c4c3c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4ce76a86, org.springframework.security.web.session.SessionManagementFilter@732e20de, org.springframework.security.web.access.ExceptionTranslationFilter@a8dd79d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5780db01]
+2019-04-28 16:57:03.121 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@32225067: startup date [Sun Apr 28 16:56:59 CST 2019]; root of context hierarchy
+2019-04-28 16:57:03.292 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept/{id}],methods=[GET]}" onto protected M com.sucl.smsm.core.web.BaseController.get(java.lang.String)
+2019-04-28 16:57:03.293 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept],methods=[PUT]}" onto protected boolean com.sucl.smsm.core.web.BaseController.update(M,com.baomidou.mybatisplus.core.conditions.query.QueryWrapper<M>)
+2019-04-28 16:57:03.293 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept/{id}],methods=[DELETE]}" onto protected void com.sucl.smsm.core.web.BaseController.delete(java.lang.String)
+2019-04-28 16:57:03.294 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept],methods=[GET]}" onto protected java.util.List<M> com.sucl.smsm.core.web.BaseController.list(M)
+2019-04-28 16:57:03.294 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept/pager],methods=[GET]}" onto protected com.baomidou.mybatisplus.core.metadata.IPage<M> com.sucl.smsm.core.web.BaseController.getPage(com.baomidou.mybatisplus.extension.plugins.pagination.Page<M>,com.baomidou.mybatisplus.core.conditions.query.QueryWrapper<M>)
+2019-04-28 16:57:03.294 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept],methods=[POST],consumes=[application/json;charset=UTF-8]}" onto protected boolean com.sucl.smsm.core.web.BaseController.saveOrUpdate(M)
+2019-04-28 16:57:03.295 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept],methods=[PATCH]}" onto protected boolean com.sucl.smsm.core.web.BaseController.patchUpdate(M)
+2019-04-28 16:57:03.295 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept],methods=[POST],consumes=[application/x-www-form-urlencoded]}" onto protected boolean com.sucl.smsm.core.web.BaseController.saveOrUpdate2(M)
+2019-04-28 16:57:03.297 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user/{id}],methods=[GET]}" onto protected M com.sucl.smsm.core.web.BaseController.get(java.lang.String)
+2019-04-28 16:57:03.297 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user],methods=[PUT]}" onto protected boolean com.sucl.smsm.core.web.BaseController.update(M,com.baomidou.mybatisplus.core.conditions.query.QueryWrapper<M>)
+2019-04-28 16:57:03.297 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user/{id}],methods=[DELETE]}" onto protected void com.sucl.smsm.core.web.BaseController.delete(java.lang.String)
+2019-04-28 16:57:03.298 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user],methods=[GET]}" onto protected java.util.List<M> com.sucl.smsm.core.web.BaseController.list(M)
+2019-04-28 16:57:03.298 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user/pager],methods=[GET]}" onto protected com.baomidou.mybatisplus.core.metadata.IPage<M> com.sucl.smsm.core.web.BaseController.getPage(com.baomidou.mybatisplus.extension.plugins.pagination.Page<M>,com.baomidou.mybatisplus.core.conditions.query.QueryWrapper<M>)
+2019-04-28 16:57:03.298 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user],methods=[POST],consumes=[application/json;charset=UTF-8]}" onto protected boolean com.sucl.smsm.core.web.BaseController.saveOrUpdate(M)
+2019-04-28 16:57:03.298 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user],methods=[PATCH]}" onto protected boolean com.sucl.smsm.core.web.BaseController.patchUpdate(M)
+2019-04-28 16:57:03.298 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user],methods=[POST],consumes=[application/x-www-form-urlencoded]}" onto protected boolean com.sucl.smsm.core.web.BaseController.saveOrUpdate2(M)
+2019-04-28 16:57:03.300 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-04-28 16:57:03.300 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-04-28 16:57:03.337 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-28 16:57:03.337 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-28 16:57:03.381 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-28 16:57:03.634 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-04-28 16:57:03.782 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-04-28 16:57:03.804 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-04-28 16:57:03.815 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-04-28 16:57:03.830 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-04-28 16:57:03.851 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8081 (http)
+2019-04-28 16:57:03.858 [restartedMain] INFO  com.sucl.smsm.Application - Started Application in 4.593 seconds (JVM running for 5.893)
+2019-04-28 16:57:20.632 [restartedMain] INFO  com.sucl.smsm.Application - Starting Application on sucl with PID 30408 (F:\blog\springboot-mybatisplus-security-ms\target\classes started by DELL in F:\blog\springboot-mybatisplus-security-ms)
+2019-04-28 16:57:20.636 [restartedMain] INFO  com.sucl.smsm.Application - No active profile set, falling back to default profiles: default
+2019-04-28 16:57:20.696 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@13d2a60c: startup date [Sun Apr 28 16:57:20 CST 2019]; root of context hierarchy
+2019-04-28 16:57:20.784 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2019-04-28 16:57:22.548 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8081 (http)
+2019-04-28 16:57:22.558 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-28 16:57:22.559 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.27
+2019-04-28 16:57:22.673 [localhost-startStop-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/smsm] - Initializing Spring embedded WebApplicationContext
+2019-04-28 16:57:22.673 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1981 ms
+2019-04-28 16:57:22.886 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-04-28 16:57:22.887 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-04-28 16:57:22.887 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-04-28 16:57:22.887 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-04-28 16:57:22.889 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2019-04-28 16:57:22.890 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-04-28 16:57:53.718 [restartedMain] INFO  com.sucl.smsm.Application - Starting Application on sucl with PID 26052 (F:\blog\springboot-mybatisplus-security-ms\target\classes started by DELL in F:\blog\springboot-mybatisplus-security-ms)
+2019-04-28 16:57:53.721 [restartedMain] INFO  com.sucl.smsm.Application - No active profile set, falling back to default profiles: default
+2019-04-28 16:57:53.784 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2e927345: startup date [Sun Apr 28 16:57:53 CST 2019]; root of context hierarchy
+2019-04-28 16:57:53.872 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2019-04-28 16:57:55.513 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8081 (http)
+2019-04-28 16:57:55.523 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-28 16:57:55.524 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.27
+2019-04-28 16:57:55.639 [localhost-startStop-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/smsm] - Initializing Spring embedded WebApplicationContext
+2019-04-28 16:57:55.639 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1860 ms
+2019-04-28 16:57:55.845 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-04-28 16:57:55.846 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-04-28 16:57:55.846 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-04-28 16:57:55.847 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-04-28 16:57:55.848 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2019-04-28 16:57:55.848 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-04-28 16:57:57.038 [restartedMain] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: a10a11cd-23f0-4d0e-ad3a-14204e677363
+
+2019-04-28 16:57:57.108 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/statics/**'], []
+2019-04-28 16:57:57.109 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, []
+2019-04-28 16:57:57.252 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@45e60e0, org.springframework.security.web.context.SecurityContextPersistenceFilter@1b786e73, org.springframework.security.web.header.HeaderWriterFilter@5ce3e3f, org.springframework.security.web.csrf.CsrfFilter@63494173, org.springframework.security.web.authentication.logout.LogoutFilter@60b47bcb, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4665be36, org.springframework.security.web.session.ConcurrentSessionFilter@1cf6515d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@58e28177, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@641b8a7b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@656b9145, org.springframework.security.web.session.SessionManagementFilter@24f520ce, org.springframework.security.web.access.ExceptionTranslationFilter@73f2dc20, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4a062df3]
+2019-04-28 16:57:57.599 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2e927345: startup date [Sun Apr 28 16:57:53 CST 2019]; root of context hierarchy
+2019-04-28 16:57:57.694 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept/{id}],methods=[GET]}" onto protected M com.sucl.smsm.core.web.BaseController.get(java.lang.String)
+2019-04-28 16:57:57.695 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept],methods=[PUT]}" onto protected boolean com.sucl.smsm.core.web.BaseController.update(M,com.baomidou.mybatisplus.core.conditions.query.QueryWrapper<M>)
+2019-04-28 16:57:57.696 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept/{id}],methods=[DELETE]}" onto protected void com.sucl.smsm.core.web.BaseController.delete(java.lang.String)
+2019-04-28 16:57:57.696 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept],methods=[GET]}" onto protected java.util.List<M> com.sucl.smsm.core.web.BaseController.list(M)
+2019-04-28 16:57:57.697 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept],methods=[PATCH]}" onto protected boolean com.sucl.smsm.core.web.BaseController.patchUpdate(M)
+2019-04-28 16:57:57.698 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept],methods=[POST],consumes=[application/x-www-form-urlencoded]}" onto protected boolean com.sucl.smsm.core.web.BaseController.saveOrUpdate2(M)
+2019-04-28 16:57:57.698 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept/pager],methods=[GET]}" onto protected com.baomidou.mybatisplus.core.metadata.IPage<M> com.sucl.smsm.core.web.BaseController.getPage(com.baomidou.mybatisplus.extension.plugins.pagination.Page<M>,com.baomidou.mybatisplus.core.conditions.query.QueryWrapper<M>)
+2019-04-28 16:57:57.698 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept],methods=[POST],consumes=[application/json;charset=UTF-8]}" onto protected boolean com.sucl.smsm.core.web.BaseController.saveOrUpdate(M)
+2019-04-28 16:57:57.701 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user/{id}],methods=[GET]}" onto protected M com.sucl.smsm.core.web.BaseController.get(java.lang.String)
+2019-04-28 16:57:57.702 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user],methods=[PUT]}" onto protected boolean com.sucl.smsm.core.web.BaseController.update(M,com.baomidou.mybatisplus.core.conditions.query.QueryWrapper<M>)
+2019-04-28 16:57:57.702 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user/{id}],methods=[DELETE]}" onto protected void com.sucl.smsm.core.web.BaseController.delete(java.lang.String)
+2019-04-28 16:57:57.702 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user],methods=[GET]}" onto protected java.util.List<M> com.sucl.smsm.core.web.BaseController.list(M)
+2019-04-28 16:57:57.703 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user],methods=[PATCH]}" onto protected boolean com.sucl.smsm.core.web.BaseController.patchUpdate(M)
+2019-04-28 16:57:57.703 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user],methods=[POST],consumes=[application/x-www-form-urlencoded]}" onto protected boolean com.sucl.smsm.core.web.BaseController.saveOrUpdate2(M)
+2019-04-28 16:57:57.704 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user/pager],methods=[GET]}" onto protected com.baomidou.mybatisplus.core.metadata.IPage<M> com.sucl.smsm.core.web.BaseController.getPage(com.baomidou.mybatisplus.extension.plugins.pagination.Page<M>,com.baomidou.mybatisplus.core.conditions.query.QueryWrapper<M>)
+2019-04-28 16:57:57.704 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user],methods=[POST],consumes=[application/json;charset=UTF-8]}" onto protected boolean com.sucl.smsm.core.web.BaseController.saveOrUpdate(M)
+2019-04-28 16:57:57.707 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-04-28 16:57:57.707 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-04-28 16:57:57.756 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-28 16:57:57.756 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-28 16:57:57.816 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-28 16:57:58.147 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-04-28 16:57:58.271 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-04-28 16:57:58.295 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-04-28 16:57:58.305 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-04-28 16:57:58.319 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-04-28 16:57:58.346 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8081 (http)
+2019-04-28 16:57:58.355 [restartedMain] INFO  com.sucl.smsm.Application - Started Application in 4.942 seconds (JVM running for 6.236)
+2019-04-28 16:58:37.841 [restartedMain] INFO  com.sucl.smsm.Application - Starting Application on sucl with PID 29760 (F:\blog\springboot-mybatisplus-security-ms\target\classes started by DELL in F:\blog\springboot-mybatisplus-security-ms)
+2019-04-28 16:58:37.844 [restartedMain] INFO  com.sucl.smsm.Application - No active profile set, falling back to default profiles: default
+2019-04-28 16:58:37.909 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@10b88a4: startup date [Sun Apr 28 16:58:37 CST 2019]; root of context hierarchy
+2019-04-28 16:58:38.009 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2019-04-28 16:58:39.693 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8081 (http)
+2019-04-28 16:58:39.710 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-28 16:58:39.711 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.27
+2019-04-28 16:58:39.816 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-04-28 16:58:39.816 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1910 ms
+2019-04-28 16:58:40.022 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-04-28 16:58:40.023 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-04-28 16:58:40.023 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-04-28 16:58:40.023 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-04-28 16:58:40.024 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2019-04-28 16:58:40.024 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-04-28 16:58:41.230 [restartedMain] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: c149efc2-772d-4027-bc0f-bdbdeb7e3b27
+
+2019-04-28 16:58:41.295 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/statics/**'], []
+2019-04-28 16:58:41.295 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, []
+2019-04-28 16:58:41.433 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3e6e998a, org.springframework.security.web.context.SecurityContextPersistenceFilter@633b5acc, org.springframework.security.web.header.HeaderWriterFilter@1a301d9f, org.springframework.security.web.csrf.CsrfFilter@a483ed8, org.springframework.security.web.authentication.logout.LogoutFilter@366fcdb8, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7bc2ac2c, org.springframework.security.web.session.ConcurrentSessionFilter@9988842, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@55d63ac1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@e713c9b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6e2be089, org.springframework.security.web.session.SessionManagementFilter@70dbbe33, org.springframework.security.web.access.ExceptionTranslationFilter@b41d873, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4d1dce7c]
+2019-04-28 16:58:41.739 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@10b88a4: startup date [Sun Apr 28 16:58:37 CST 2019]; root of context hierarchy
+2019-04-28 16:58:41.807 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept/{id}],methods=[GET]}" onto protected M com.sucl.smsm.core.web.BaseController.get(java.lang.String)
+2019-04-28 16:58:41.808 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept],methods=[PUT]}" onto protected boolean com.sucl.smsm.core.web.BaseController.update(M,com.baomidou.mybatisplus.core.conditions.query.QueryWrapper<M>)
+2019-04-28 16:58:41.809 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept/{id}],methods=[DELETE]}" onto protected void com.sucl.smsm.core.web.BaseController.delete(java.lang.String)
+2019-04-28 16:58:41.809 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept],methods=[GET]}" onto protected java.util.List<M> com.sucl.smsm.core.web.BaseController.list(M)
+2019-04-28 16:58:41.809 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept/pager],methods=[GET]}" onto protected com.baomidou.mybatisplus.core.metadata.IPage<M> com.sucl.smsm.core.web.BaseController.getPage(com.baomidou.mybatisplus.extension.plugins.pagination.Page<M>,com.baomidou.mybatisplus.core.conditions.query.QueryWrapper<M>)
+2019-04-28 16:58:41.810 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept],methods=[PATCH]}" onto protected boolean com.sucl.smsm.core.web.BaseController.patchUpdate(M)
+2019-04-28 16:58:41.810 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept],methods=[POST],consumes=[application/x-www-form-urlencoded]}" onto protected boolean com.sucl.smsm.core.web.BaseController.saveOrUpdate2(M)
+2019-04-28 16:58:41.810 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept],methods=[POST],consumes=[application/json;charset=UTF-8]}" onto protected boolean com.sucl.smsm.core.web.BaseController.saveOrUpdate(M)
+2019-04-28 16:58:41.812 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user/{id}],methods=[GET]}" onto protected M com.sucl.smsm.core.web.BaseController.get(java.lang.String)
+2019-04-28 16:58:41.812 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user],methods=[PUT]}" onto protected boolean com.sucl.smsm.core.web.BaseController.update(M,com.baomidou.mybatisplus.core.conditions.query.QueryWrapper<M>)
+2019-04-28 16:58:41.813 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user/{id}],methods=[DELETE]}" onto protected void com.sucl.smsm.core.web.BaseController.delete(java.lang.String)
+2019-04-28 16:58:41.813 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user],methods=[GET]}" onto protected java.util.List<M> com.sucl.smsm.core.web.BaseController.list(M)
+2019-04-28 16:58:41.813 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user/pager],methods=[GET]}" onto protected com.baomidou.mybatisplus.core.metadata.IPage<M> com.sucl.smsm.core.web.BaseController.getPage(com.baomidou.mybatisplus.extension.plugins.pagination.Page<M>,com.baomidou.mybatisplus.core.conditions.query.QueryWrapper<M>)
+2019-04-28 16:58:41.813 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user],methods=[PATCH]}" onto protected boolean com.sucl.smsm.core.web.BaseController.patchUpdate(M)
+2019-04-28 16:58:41.813 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user],methods=[POST],consumes=[application/x-www-form-urlencoded]}" onto protected boolean com.sucl.smsm.core.web.BaseController.saveOrUpdate2(M)
+2019-04-28 16:58:41.814 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user],methods=[POST],consumes=[application/json;charset=UTF-8]}" onto protected boolean com.sucl.smsm.core.web.BaseController.saveOrUpdate(M)
+2019-04-28 16:58:41.815 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-04-28 16:58:41.816 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-04-28 16:58:41.860 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-28 16:58:41.860 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-28 16:58:41.904 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-28 16:58:42.181 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-04-28 16:58:42.309 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-04-28 16:58:42.333 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-04-28 16:58:42.343 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-04-28 16:58:42.356 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-04-28 16:58:42.374 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8081 (http)
+2019-04-28 16:58:42.380 [restartedMain] INFO  com.sucl.smsm.Application - Started Application in 4.852 seconds (JVM running for 6.152)
+2019-04-28 16:58:45.139 [http-nio-8081-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-04-28 16:58:45.139 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2019-04-28 16:58:45.161 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 22 ms
+2019-04-28 17:05:25.613 [restartedMain] INFO  com.sucl.smsm.Application - Starting Application on sucl with PID 28468 (F:\blog\springboot-mybatisplus-security-ms\target\classes started by DELL in F:\blog\springboot-mybatisplus-security-ms)
+2019-04-28 17:05:25.617 [restartedMain] INFO  com.sucl.smsm.Application - No active profile set, falling back to default profiles: default
+2019-04-28 17:05:25.683 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4c547c58: startup date [Sun Apr 28 17:05:25 CST 2019]; root of context hierarchy
+2019-04-28 17:05:25.767 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2019-04-28 17:05:27.469 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8081 (http)
+2019-04-28 17:05:27.481 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-28 17:05:27.483 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.27
+2019-04-28 17:05:27.603 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-04-28 17:05:27.603 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1923 ms
+2019-04-28 17:05:27.836 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-04-28 17:05:27.836 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-04-28 17:05:27.836 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-04-28 17:05:27.837 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-04-28 17:05:27.838 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2019-04-28 17:05:27.838 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-04-28 17:05:29.026 [restartedMain] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: ffee1fc2-6469-451f-8d35-8eb3cdc79bbb
+
+2019-04-28 17:05:29.094 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/statics/**'], []
+2019-04-28 17:05:29.094 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, []
+2019-04-28 17:05:29.233 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@54505f19, org.springframework.security.web.context.SecurityContextPersistenceFilter@4746849f, org.springframework.security.web.header.HeaderWriterFilter@3e2b07de, org.springframework.security.web.csrf.CsrfFilter@5daefd8b, org.springframework.security.web.authentication.logout.LogoutFilter@6be85772, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@103a4266, org.springframework.security.web.session.ConcurrentSessionFilter@478f40d3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5a3fb74a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@45eb117b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@10de6395, org.springframework.security.web.session.SessionManagementFilter@7beb4b4a, org.springframework.security.web.access.ExceptionTranslationFilter@6d7c0c9f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@129092d7]
+2019-04-28 17:05:29.624 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4c547c58: startup date [Sun Apr 28 17:05:25 CST 2019]; root of context hierarchy
+2019-04-28 17:05:29.695 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/index || ]}" onto public java.lang.String com.sucl.smsm.core.web.IndexController.index(java.util.Map<java.lang.String, java.lang.Object>)
+2019-04-28 17:05:29.696 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/login]}" onto public java.lang.String com.sucl.smsm.core.web.IndexController.login()
+2019-04-28 17:05:29.697 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/{pager}],methods=[GET],produces=[text/html]}" onto public java.lang.String com.sucl.smsm.core.web.IndexController.pageDispatcher(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2019-04-28 17:05:29.697 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/icons]}" onto public java.lang.String com.sucl.smsm.core.web.IndexController.icons(java.util.Map<java.lang.String, java.lang.Object>)
+2019-04-28 17:05:29.697 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/logout]}" onto public java.lang.String com.sucl.smsm.core.web.IndexController.logout(java.util.Map<java.lang.String, java.lang.Object>)
+2019-04-28 17:05:29.703 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept/{id}],methods=[GET]}" onto protected M com.sucl.smsm.core.web.BaseController.get(java.lang.String)
+2019-04-28 17:05:29.704 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept],methods=[PUT]}" onto protected boolean com.sucl.smsm.core.web.BaseController.update(M,com.baomidou.mybatisplus.core.conditions.query.QueryWrapper<M>)
+2019-04-28 17:05:29.704 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept/{id}],methods=[DELETE]}" onto protected void com.sucl.smsm.core.web.BaseController.delete(java.lang.String)
+2019-04-28 17:05:29.704 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept],methods=[GET]}" onto protected java.util.List<M> com.sucl.smsm.core.web.BaseController.list(M)
+2019-04-28 17:05:29.704 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept],methods=[POST],consumes=[application/json;charset=UTF-8]}" onto protected boolean com.sucl.smsm.core.web.BaseController.saveOrUpdate(M)
+2019-04-28 17:05:29.705 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept/pager],methods=[GET]}" onto protected com.baomidou.mybatisplus.core.metadata.IPage<M> com.sucl.smsm.core.web.BaseController.getPage(com.baomidou.mybatisplus.extension.plugins.pagination.Page<M>,com.baomidou.mybatisplus.core.conditions.query.QueryWrapper<M>)
+2019-04-28 17:05:29.705 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept],methods=[POST],consumes=[application/x-www-form-urlencoded]}" onto protected boolean com.sucl.smsm.core.web.BaseController.saveOrUpdate2(M)
+2019-04-28 17:05:29.705 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept],methods=[PATCH]}" onto protected boolean com.sucl.smsm.core.web.BaseController.patchUpdate(M)
+2019-04-28 17:05:29.707 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user/{id}],methods=[GET]}" onto protected M com.sucl.smsm.core.web.BaseController.get(java.lang.String)
+2019-04-28 17:05:29.708 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user],methods=[PUT]}" onto protected boolean com.sucl.smsm.core.web.BaseController.update(M,com.baomidou.mybatisplus.core.conditions.query.QueryWrapper<M>)
+2019-04-28 17:05:29.708 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user/{id}],methods=[DELETE]}" onto protected void com.sucl.smsm.core.web.BaseController.delete(java.lang.String)
+2019-04-28 17:05:29.708 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user],methods=[GET]}" onto protected java.util.List<M> com.sucl.smsm.core.web.BaseController.list(M)
+2019-04-28 17:05:29.708 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user],methods=[POST],consumes=[application/json;charset=UTF-8]}" onto protected boolean com.sucl.smsm.core.web.BaseController.saveOrUpdate(M)
+2019-04-28 17:05:29.708 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user/pager],methods=[GET]}" onto protected com.baomidou.mybatisplus.core.metadata.IPage<M> com.sucl.smsm.core.web.BaseController.getPage(com.baomidou.mybatisplus.extension.plugins.pagination.Page<M>,com.baomidou.mybatisplus.core.conditions.query.QueryWrapper<M>)
+2019-04-28 17:05:29.708 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user],methods=[POST],consumes=[application/x-www-form-urlencoded]}" onto protected boolean com.sucl.smsm.core.web.BaseController.saveOrUpdate2(M)
+2019-04-28 17:05:29.709 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user],methods=[PATCH]}" onto protected boolean com.sucl.smsm.core.web.BaseController.patchUpdate(M)
+2019-04-28 17:05:29.711 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-04-28 17:05:29.711 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-04-28 17:05:29.754 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-28 17:05:29.754 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-28 17:05:29.800 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-28 17:05:30.055 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-04-28 17:05:30.175 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-04-28 17:05:30.203 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-04-28 17:05:30.215 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-04-28 17:05:30.230 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-04-28 17:05:30.250 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8081 (http)
+2019-04-28 17:05:30.256 [restartedMain] INFO  com.sucl.smsm.Application - Started Application in 4.977 seconds (JVM running for 6.237)
+2019-04-28 17:05:39.572 [http-nio-8081-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-04-28 17:05:39.572 [http-nio-8081-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2019-04-28 17:05:39.593 [http-nio-8081-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 21 ms
+2019-04-28 17:07:41.141 [restartedMain] INFO  com.sucl.smsm.Application - Starting Application on sucl with PID 31272 (F:\blog\springboot-mybatisplus-security-ms\target\classes started by DELL in F:\blog\springboot-mybatisplus-security-ms)
+2019-04-28 17:07:41.144 [restartedMain] INFO  com.sucl.smsm.Application - No active profile set, falling back to default profiles: default
+2019-04-28 17:07:41.206 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@93afd9: startup date [Sun Apr 28 17:07:41 CST 2019]; root of context hierarchy
+2019-04-28 17:07:41.297 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2019-04-28 17:07:42.995 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8081 (http)
+2019-04-28 17:07:43.005 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-28 17:07:43.006 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.27
+2019-04-28 17:07:43.102 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-04-28 17:07:43.102 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1900 ms
+2019-04-28 17:07:43.309 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-04-28 17:07:43.310 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-04-28 17:07:43.310 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-04-28 17:07:43.310 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-04-28 17:07:43.311 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2019-04-28 17:07:43.311 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-04-28 17:07:44.482 [restartedMain] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: d38fe801-cd69-4da1-b6f6-083b1a489ea4
+
+2019-04-28 17:07:44.559 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/statics/**'], []
+2019-04-28 17:07:44.559 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, []
+2019-04-28 17:07:44.709 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@354744b7, org.springframework.security.web.context.SecurityContextPersistenceFilter@45e1ed76, org.springframework.security.web.header.HeaderWriterFilter@7446e0ea, org.springframework.security.web.csrf.CsrfFilter@4492a107, org.springframework.security.web.authentication.logout.LogoutFilter@f0948ea, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@47073e77, org.springframework.security.web.session.ConcurrentSessionFilter@4615e5a0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@57ea6f7f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@731310bf, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2ddf4216, org.springframework.security.web.session.SessionManagementFilter@130a0d8a, org.springframework.security.web.access.ExceptionTranslationFilter@55dfde5c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5e003527]
+2019-04-28 17:07:45.028 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@93afd9: startup date [Sun Apr 28 17:07:41 CST 2019]; root of context hierarchy
+2019-04-28 17:07:45.092 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/index || ]}" onto public java.lang.String com.sucl.smsm.core.web.IndexController.index(java.util.Map<java.lang.String, java.lang.Object>)
+2019-04-28 17:07:45.094 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/logout]}" onto public java.lang.String com.sucl.smsm.core.web.IndexController.logout(java.util.Map<java.lang.String, java.lang.Object>)
+2019-04-28 17:07:45.094 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/login]}" onto public java.lang.String com.sucl.smsm.core.web.IndexController.login()
+2019-04-28 17:07:45.094 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/icons]}" onto public java.lang.String com.sucl.smsm.core.web.IndexController.icons(java.util.Map<java.lang.String, java.lang.Object>)
+2019-04-28 17:07:45.094 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/{pager}],methods=[GET],produces=[text/html]}" onto public java.lang.String com.sucl.smsm.core.web.IndexController.pageDispatcher(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2019-04-28 17:07:45.101 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept/{id}],methods=[GET]}" onto protected M com.sucl.smsm.core.web.BaseController.get(java.lang.String)
+2019-04-28 17:07:45.101 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept],methods=[PUT]}" onto protected boolean com.sucl.smsm.core.web.BaseController.update(M,com.baomidou.mybatisplus.core.conditions.query.QueryWrapper<M>)
+2019-04-28 17:07:45.101 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept/{id}],methods=[DELETE]}" onto protected void com.sucl.smsm.core.web.BaseController.delete(java.lang.String)
+2019-04-28 17:07:45.102 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept],methods=[GET]}" onto protected java.util.List<M> com.sucl.smsm.core.web.BaseController.list(M)
+2019-04-28 17:07:45.102 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept],methods=[POST],consumes=[application/json;charset=UTF-8]}" onto protected boolean com.sucl.smsm.core.web.BaseController.saveOrUpdate(M)
+2019-04-28 17:07:45.103 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept/pager],methods=[GET]}" onto protected com.baomidou.mybatisplus.core.metadata.IPage<M> com.sucl.smsm.core.web.BaseController.getPage(com.baomidou.mybatisplus.extension.plugins.pagination.Page<M>,com.baomidou.mybatisplus.core.conditions.query.QueryWrapper<M>)
+2019-04-28 17:07:45.103 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept],methods=[POST],consumes=[application/x-www-form-urlencoded]}" onto protected boolean com.sucl.smsm.core.web.BaseController.saveOrUpdate2(M)
+2019-04-28 17:07:45.103 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept],methods=[PATCH]}" onto protected boolean com.sucl.smsm.core.web.BaseController.patchUpdate(M)
+2019-04-28 17:07:45.105 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user/{id}],methods=[GET]}" onto protected M com.sucl.smsm.core.web.BaseController.get(java.lang.String)
+2019-04-28 17:07:45.106 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user],methods=[PUT]}" onto protected boolean com.sucl.smsm.core.web.BaseController.update(M,com.baomidou.mybatisplus.core.conditions.query.QueryWrapper<M>)
+2019-04-28 17:07:45.106 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user/{id}],methods=[DELETE]}" onto protected void com.sucl.smsm.core.web.BaseController.delete(java.lang.String)
+2019-04-28 17:07:45.106 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user],methods=[GET]}" onto protected java.util.List<M> com.sucl.smsm.core.web.BaseController.list(M)
+2019-04-28 17:07:45.106 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user],methods=[POST],consumes=[application/json;charset=UTF-8]}" onto protected boolean com.sucl.smsm.core.web.BaseController.saveOrUpdate(M)
+2019-04-28 17:07:45.106 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user/pager],methods=[GET]}" onto protected com.baomidou.mybatisplus.core.metadata.IPage<M> com.sucl.smsm.core.web.BaseController.getPage(com.baomidou.mybatisplus.extension.plugins.pagination.Page<M>,com.baomidou.mybatisplus.core.conditions.query.QueryWrapper<M>)
+2019-04-28 17:07:45.106 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user],methods=[POST],consumes=[application/x-www-form-urlencoded]}" onto protected boolean com.sucl.smsm.core.web.BaseController.saveOrUpdate2(M)
+2019-04-28 17:07:45.107 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user],methods=[PATCH]}" onto protected boolean com.sucl.smsm.core.web.BaseController.patchUpdate(M)
+2019-04-28 17:07:45.108 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-04-28 17:07:45.109 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-04-28 17:07:45.149 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-28 17:07:45.149 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-28 17:07:45.189 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-28 17:07:45.465 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-04-28 17:07:45.613 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-04-28 17:07:45.639 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-04-28 17:07:45.656 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-04-28 17:07:45.670 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-04-28 17:07:45.691 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8081 (http)
+2019-04-28 17:07:45.696 [restartedMain] INFO  com.sucl.smsm.Application - Started Application in 4.869 seconds (JVM running for 6.225)
+2019-04-28 17:07:50.048 [http-nio-8081-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-04-28 17:07:50.048 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2019-04-28 17:07:50.066 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 18 ms
+2019-04-28 17:11:21.969 [restartedMain] INFO  com.sucl.smsm.Application - Starting Application on sucl with PID 31232 (F:\blog\springboot-mybatisplus-security-ms\target\classes started by DELL in F:\blog\springboot-mybatisplus-security-ms)
+2019-04-28 17:11:21.972 [restartedMain] INFO  com.sucl.smsm.Application - No active profile set, falling back to default profiles: default
+2019-04-28 17:11:22.126 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2019-04-28 17:11:22.233 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7b1e1838: startup date [Sun Apr 28 17:11:22 CST 2019]; root of context hierarchy
+2019-04-28 17:11:24.045 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8081 (http)
+2019-04-28 17:11:24.054 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-28 17:11:24.055 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.27
+2019-04-28 17:11:24.150 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-04-28 17:11:24.150 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1920 ms
+2019-04-28 17:11:24.370 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-04-28 17:11:24.371 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-04-28 17:11:24.371 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-04-28 17:11:24.372 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-04-28 17:11:24.372 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2019-04-28 17:11:24.373 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-04-28 17:11:25.711 [restartedMain] INFO  o.s.b.a.s.AuthenticationManagerConfiguration - 
+
+Using default security password: 9f9f8980-d6c8-44ab-a99e-34b2021ede28
+
+2019-04-28 17:11:25.778 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/statics/**'], []
+2019-04-28 17:11:25.778 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, []
+2019-04-28 17:11:25.910 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4b1458c6, org.springframework.security.web.context.SecurityContextPersistenceFilter@1389816f, org.springframework.security.web.header.HeaderWriterFilter@fd7703, org.springframework.security.web.csrf.CsrfFilter@41bcf3b8, org.springframework.security.web.authentication.logout.LogoutFilter@2267d46a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4a642f06, org.springframework.security.web.session.ConcurrentSessionFilter@216d64d1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4578b39e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@c4352a5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@70df2b7e, org.springframework.security.web.session.SessionManagementFilter@48fb30f1, org.springframework.security.web.access.ExceptionTranslationFilter@163fccfa, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@763ed51e]
+2019-04-28 17:11:26.230 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7b1e1838: startup date [Sun Apr 28 17:11:22 CST 2019]; root of context hierarchy
+2019-04-28 17:11:26.305 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/index || ]}" onto public java.lang.String com.sucl.smsm.core.web.IndexController.index(java.util.Map<java.lang.String, java.lang.Object>)
+2019-04-28 17:11:26.307 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/logout]}" onto public java.lang.String com.sucl.smsm.core.web.IndexController.logout(java.util.Map<java.lang.String, java.lang.Object>)
+2019-04-28 17:11:26.307 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/login]}" onto public java.lang.String com.sucl.smsm.core.web.IndexController.login()
+2019-04-28 17:11:26.307 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/icons]}" onto public java.lang.String com.sucl.smsm.core.web.IndexController.icons(java.util.Map<java.lang.String, java.lang.Object>)
+2019-04-28 17:11:26.308 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/{pager}],methods=[GET],produces=[text/html]}" onto public java.lang.String com.sucl.smsm.core.web.IndexController.pageDispatcher(java.lang.String,java.util.Map<java.lang.String, java.lang.Object>)
+2019-04-28 17:11:26.315 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept/{id}],methods=[GET]}" onto protected M com.sucl.smsm.core.web.BaseController.get(java.lang.String)
+2019-04-28 17:11:26.315 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept],methods=[PUT]}" onto protected boolean com.sucl.smsm.core.web.BaseController.update(M,com.baomidou.mybatisplus.core.conditions.query.QueryWrapper<M>)
+2019-04-28 17:11:26.315 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept/{id}],methods=[DELETE]}" onto protected void com.sucl.smsm.core.web.BaseController.delete(java.lang.String)
+2019-04-28 17:11:26.316 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept],methods=[GET]}" onto protected java.util.List<M> com.sucl.smsm.core.web.BaseController.list(M)
+2019-04-28 17:11:26.316 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept],methods=[PATCH]}" onto protected boolean com.sucl.smsm.core.web.BaseController.patchUpdate(M)
+2019-04-28 17:11:26.316 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept],methods=[POST],consumes=[application/json;charset=UTF-8]}" onto protected boolean com.sucl.smsm.core.web.BaseController.saveOrUpdate(M)
+2019-04-28 17:11:26.316 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept],methods=[POST],consumes=[application/x-www-form-urlencoded]}" onto protected boolean com.sucl.smsm.core.web.BaseController.saveOrUpdate2(M)
+2019-04-28 17:11:26.317 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/dept/pager],methods=[GET]}" onto protected com.baomidou.mybatisplus.core.metadata.IPage<M> com.sucl.smsm.core.web.BaseController.getPage(com.baomidou.mybatisplus.extension.plugins.pagination.Page<M>,com.baomidou.mybatisplus.core.conditions.query.QueryWrapper<M>)
+2019-04-28 17:11:26.319 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user/{id}],methods=[GET]}" onto protected M com.sucl.smsm.core.web.BaseController.get(java.lang.String)
+2019-04-28 17:11:26.319 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user],methods=[PUT]}" onto protected boolean com.sucl.smsm.core.web.BaseController.update(M,com.baomidou.mybatisplus.core.conditions.query.QueryWrapper<M>)
+2019-04-28 17:11:26.319 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user/{id}],methods=[DELETE]}" onto protected void com.sucl.smsm.core.web.BaseController.delete(java.lang.String)
+2019-04-28 17:11:26.319 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user],methods=[GET]}" onto protected java.util.List<M> com.sucl.smsm.core.web.BaseController.list(M)
+2019-04-28 17:11:26.319 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user],methods=[PATCH]}" onto protected boolean com.sucl.smsm.core.web.BaseController.patchUpdate(M)
+2019-04-28 17:11:26.320 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user],methods=[POST],consumes=[application/json;charset=UTF-8]}" onto protected boolean com.sucl.smsm.core.web.BaseController.saveOrUpdate(M)
+2019-04-28 17:11:26.320 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user],methods=[POST],consumes=[application/x-www-form-urlencoded]}" onto protected boolean com.sucl.smsm.core.web.BaseController.saveOrUpdate2(M)
+2019-04-28 17:11:26.320 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sys/user/pager],methods=[GET]}" onto protected com.baomidou.mybatisplus.core.metadata.IPage<M> com.sucl.smsm.core.web.BaseController.getPage(com.baomidou.mybatisplus.extension.plugins.pagination.Page<M>,com.baomidou.mybatisplus.core.conditions.query.QueryWrapper<M>)
+2019-04-28 17:11:26.322 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-04-28 17:11:26.322 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-04-28 17:11:26.359 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-28 17:11:26.360 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-28 17:11:26.402 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-28 17:11:26.995 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-04-28 17:11:27.122 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-04-28 17:11:27.147 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-04-28 17:11:27.158 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-04-28 17:11:27.174 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-04-28 17:11:27.200 [restartedMain] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8081 (http)
+2019-04-28 17:11:27.212 [restartedMain] INFO  com.sucl.smsm.Application - Started Application in 5.562 seconds (JVM running for 6.873)
+2019-04-28 17:11:37.467 [http-nio-8081-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-04-28 17:11:37.468 [http-nio-8081-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2019-04-28 17:11:37.491 [http-nio-8081-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 23 ms
+2019-04-28 17:11:45.573 [http-nio-8081-exec-2] INFO  org.thymeleaf.TemplateEngine - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+2019-04-28 17:11:45.618 [http-nio-8081-exec-2] INFO  o.t.templateresolver.AbstractTemplateResolver - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+2019-04-28 17:11:45.618 [http-nio-8081-exec-2] INFO  o.t.templateresolver.AbstractTemplateResolver - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+2019-04-28 17:11:45.618 [http-nio-8081-exec-2] INFO  o.t.messageresolver.AbstractMessageResolver - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+2019-04-28 17:11:45.618 [http-nio-8081-exec-2] INFO  o.t.messageresolver.AbstractMessageResolver - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+2019-04-28 17:11:45.635 [http-nio-8081-exec-2] INFO  org.thymeleaf.TemplateEngine - [THYMELEAF] TEMPLATE ENGINE INITIALIZED

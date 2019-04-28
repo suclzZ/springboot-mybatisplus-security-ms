@@ -1,0 +1,38 @@
+.center{
+    text-align:'center';
+}
+.hidden{
+    display:none;
+}
+
+.app-menu a.page-nav{
+    color:#fff;
+}
+.app-menu a.page-nav:not([href]):hover{
+    color:#fff;
+    cursor:pointer;
+}
+a.app-menu__item>.app-menu__label{
+    margin-left:40px;
+}
+.sidenav-toggled .treeview-menu .app-menu__label{
+    font-size:12px !important;
+}
+main.app-content>.app-title{
+    padding:13px 30px;
+}
+.tree-container{
+    border-right: 1px solid #ddd;
+    margin: 5px 10px;
+    padding: 10px 10px;
+    height: 100%;
+}
+.app-content .table th, .table td {
+    padding: 0.5rem;
+}
+.table.center th,.table.center td{
+    text-align:center;
+}
+form .control-label{
+    padding-left: 80px;
+}
