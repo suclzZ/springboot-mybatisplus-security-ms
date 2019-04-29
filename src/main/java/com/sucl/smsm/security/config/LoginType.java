@@ -6,6 +6,5 @@ package com.sucl.smsm.security.config;
  */
 public enum LoginType {
     FORM,
-    AJAX,
     TOKEN
 }

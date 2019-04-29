@@ -9,7 +9,7 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.common.base.CaseFormat;
 import com.google.common.collect.Maps;
-import com.sucl.smsm.core.annotation.QueryCondition;
+import com.sucl.smsm.core.support.annotation.QueryCondition;
 import com.sucl.smsm.core.orm.Condition;
 import com.sucl.smsm.core.orm.Domain;
 import org.springframework.core.MethodParameter;

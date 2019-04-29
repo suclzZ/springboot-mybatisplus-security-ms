@@ -1,7 +1,7 @@
 package com.sucl.smsm.system.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
-import com.sucl.smsm.core.entity.BaseEntity;
+import com.sucl.smsm.core.model.BaseEntity;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableField;
 import lombok.Data;

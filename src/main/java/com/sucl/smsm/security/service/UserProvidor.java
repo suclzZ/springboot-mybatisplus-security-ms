@@ -10,7 +10,9 @@ import org.springframework.core.Ordered;
  */
 public interface UserProvidor extends Ordered {
 
-    boolean support(Object o);
-
     IUser getUser(String username);
+
+    default int getOrder(){
+        return 0;
+    }
 }

@@ -23,7 +23,7 @@ public class WebSecurityProperties {
     /**
      * 认证类型类型
      */
-    private LoginType paramLoginType = LoginType.AJAX;
+    private LoginType loginType = LoginType.FORM;
 
     /**
      * 登录请求

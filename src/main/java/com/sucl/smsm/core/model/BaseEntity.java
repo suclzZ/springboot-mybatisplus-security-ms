@@ -1,4 +1,4 @@
-package com.sucl.smsm.core.entity;
+package com.sucl.smsm.core.model;
 
 import com.sucl.smsm.core.orm.Domain;
 

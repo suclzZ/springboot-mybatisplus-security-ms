@@ -1,4 +1,4 @@
-package com.sucl.smsm.core.configuration;
+package com.sucl.smsm.core.config;
 
 import com.baomidou.mybatisplus.extension.plugins.PaginationInterceptor;
 import com.baomidou.mybatisplus.extension.plugins.PerformanceInterceptor;

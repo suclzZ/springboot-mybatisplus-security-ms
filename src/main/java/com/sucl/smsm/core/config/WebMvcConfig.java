@@ -1,4 +1,4 @@
-package com.sucl.smsm.core.configuration;
+package com.sucl.smsm.core.config;
 
 import com.sucl.smsm.core.support.method.ConditionHandlerMethodArgumentResolver;
 import com.sucl.smsm.core.support.method.PageHandlerMethodArgumentResolver;

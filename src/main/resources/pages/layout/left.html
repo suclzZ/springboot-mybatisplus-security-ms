@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html class="fixed" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+
+<th:block th:fragment="left">
+    <div class="app-sidebar__overlay" data-toggle="sidebar"></div>
+    <aside class="app-sidebar">
+        <ul class="app-menu" th:utext="${menu}"></ul>
+    </aside>
+</th:block>
+
+</html>

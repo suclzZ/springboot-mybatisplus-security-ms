@@ -1,11 +1,15 @@
 package com.sucl.smsm.system.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
-import com.sucl.smsm.core.entity.BaseEntity;
+import com.sucl.smsm.core.model.BaseEntity;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableField;
+import com.sucl.smsm.security.user.IUser;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * <p>
@@ -18,7 +22,7 @@ import lombok.EqualsAndHashCode;
 @Data
 @EqualsAndHashCode(callSuper = true)
 //@Accessors(chain = true)
-public class User extends BaseEntity {
+public class User extends BaseEntity implements IUser {
 
     private static final long serialVersionUID = 1L;
 
@@ -26,7 +30,7 @@ public class User extends BaseEntity {
     private String userId;
 
     @TableField("USER_NAME")
-    private String userName;
+    private String username;
 
     @TableField("USER_CAPTION")
     private String userCaption;
@@ -53,4 +57,13 @@ public class User extends BaseEntity {
     private String memo;
 
 
+    @Override
+    public String getUsername() {
+        return this.username;
+    }
+
+    @Override
+    public List<String> getRoles() {
+        return new ArrayList<>();
+    }
 }
