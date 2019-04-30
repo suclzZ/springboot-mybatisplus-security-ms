@@ -27,7 +27,7 @@ public class TokenAuthenticationFailureHandler implements AuthenticationFailureH
     }
 
     private void onFailure(HttpServletRequest request, HttpServletResponse response, AuthenticationException exception) {
-        String message = "认证失败";
+        String message = exception.getMessage();
         if(exception instanceof UsernameNotFoundException){
             message = "用户不存在";
         }else if(exception instanceof BadCredentialsException){
@@ -35,7 +35,7 @@ public class TokenAuthenticationFailureHandler implements AuthenticationFailureH
         }else if(exception instanceof AccountStatusException){
             message = "状态异常";
         }
-        request.setAttribute("error",message);
+        request.setAttribute("error","认证失败:" +message);
         response.setStatus(HttpStatus.INTERNAL_SERVER_ERROR.value());
         response.setContentType(MediaType.APPLICATION_JSON_UTF8_VALUE);
         try {

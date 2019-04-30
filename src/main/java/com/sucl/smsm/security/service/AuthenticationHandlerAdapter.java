@@ -5,7 +5,7 @@ import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configurers.FormLoginConfigurer;
 
 /**
- * 登录成功后的处理适配
+ * 登录成功或失败后的处理
  * 针对{@link LoginType}
  *
  * @author sucl

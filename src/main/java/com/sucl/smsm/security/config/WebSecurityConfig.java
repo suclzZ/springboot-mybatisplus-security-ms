@@ -1,19 +1,16 @@
 package com.sucl.smsm.security.config;
 
+import com.sucl.smsm.security.auth.GenericAuthenticationEntryPoint;
+import com.sucl.smsm.security.auth.PreAbstractAuthenticationFilter;
 import com.sucl.smsm.security.service.AuthenticationHandlerAdapter;
-import com.sucl.smsm.security.service.PasswordService;
-import com.sucl.smsm.security.user.DefaultUserDetailesService;
 import org.apache.commons.collections.MapUtils;
 import org.springframework.beans.factory.BeanFactoryUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.ApplicationContext;
-import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;
 import org.springframework.security.authentication.AuthenticationProvider;
-import org.springframework.security.authentication.AuthenticationTrustResolver;
-import org.springframework.security.authentication.dao.DaoAuthenticationProvider;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
@@ -21,20 +18,12 @@ import org.springframework.security.config.annotation.web.builders.WebSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.config.annotation.web.configurers.FormLoginConfigurer;
-import org.springframework.security.core.Authentication;
 import org.springframework.security.core.userdetails.UserDetailsService;
-import org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter;
-import org.springframework.security.web.authentication.AnonymousAuthenticationFilter;
-import org.springframework.security.web.authentication.AuthenticationSuccessHandler;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 import org.springframework.util.StringUtils;
-import org.springframework.web.accept.ContentNegotiationStrategy;
 import org.springframework.web.util.WebUtils;
 
-import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -56,24 +45,23 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
      */
     @Autowired
     private WebSecurityProperties properties;
-    @Autowired
+    @Autowired(required = false)
     private UserDetailsService userDetailsService;
-    /**
-     * 密码服务
-     */
-    @Autowired
-    private PasswordService passwordService;
     /**
      * 前置过滤器配置
      */
-    private List<? extends AbstractAuthenticationProcessingFilter> preAuthenticationProcessingFilters;
+    private List<PreAbstractAuthenticationFilter> preAuthenticationProcessingFilters;
+    /**
+     * 认证相关
+     */
+    private List<AuthenticationProvider> authenticationProviders;
     /**
      * 认证成功/失败处理器
      */
     private List<AuthenticationHandlerAdapter> authenticationHandlerAdapters;
 
     protected WebSecurityConfig() {
-        super(false);
+        super( false);
     }
 
     protected WebSecurityConfig(boolean disableDefaults) {
@@ -81,8 +69,13 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     }
 
     @Autowired(required = false)
-    public void setPreAuthenticationProcessingFilters(List<? extends AbstractAuthenticationProcessingFilter> preAuthenticationProcessingFilters) {
+    public void setPreAuthenticationProcessingFilters(List<PreAbstractAuthenticationFilter> preAuthenticationProcessingFilters) {
         this.preAuthenticationProcessingFilters = preAuthenticationProcessingFilters;
+    }
+
+    @Autowired(required = false)
+    public void setAuthenticationProviders(List<AuthenticationProvider> authenticationProviders) {
+        this.authenticationProviders = authenticationProviders;
     }
 
     /**
@@ -99,8 +92,14 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
      */
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
-//        auth.authenticationProvider(authenticationProvider());
-        auth.userDetailsService(userDetailsService);
+        if(userDetailsService!=null){//parentAuthenticationManager->
+            auth.userDetailsService(userDetailsService);
+        }
+        if(authenticationProviders!=null && authenticationProviders.size()>0){
+            for(AuthenticationProvider authenticationProvider : authenticationProviders){
+                auth.authenticationProvider(authenticationProvider);
+            }
+        }
     }
 
     @Override
@@ -125,24 +124,33 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
         http.authorizeRequests()
             .antMatchers(HttpMethod.GET,properties.getLoginUrl()).permitAll()
-            .anyRequest().authenticated();
+            .anyRequest().authenticated()
+            .and().exceptionHandling().authenticationEntryPoint(new GenericAuthenticationEntryPoint(properties.getLoginUrl()))
+            .and().logout().permitAll();
 
         FormLoginConfigurer<HttpSecurity> login = http.formLogin()
                 .loginPage(properties.getLoginUrl())
                 .defaultSuccessUrl(properties.getLoginSuccess())
-                .failureForwardUrl(properties.getLoginUrl());
-        formLoginConfig(login);
+                .failureForwardUrl(properties.getLoginUrl())
+                .failureUrl(properties.getLoginUrl())
+                .usernameParameter(properties.getParamUsername())
+                .passwordParameter(properties.getParamPassword());
 
-        login.usernameParameter(properties.getParamUsername()).passwordParameter(properties.getParamPassword())
-            .and().logout().permitAll();
+        configFormlogin(login);
 
         //session失效后跳转
         http.sessionManagement().invalidSessionUrl(properties.getLoginUrl());
         //只允许一个用户登录,如果同一个账户两次登录,那么第一个账户将被踢下线,跳转到登录页面
         http.sessionManagement().maximumSessions(1).expiredUrl(properties.getLoginUrl());
+
+        if(preAuthenticationProcessingFilters!=null){
+            for(PreAbstractAuthenticationFilter preAuthenticationProcessingFilter :preAuthenticationProcessingFilters){
+                http.addFilterBefore(preAuthenticationProcessingFilter,UsernamePasswordAuthenticationFilter.class);
+            }
+        }
     }
 
-    protected FormLoginConfigurer<HttpSecurity> formLoginConfig(FormLoginConfigurer<HttpSecurity> login) {
+    protected FormLoginConfigurer<HttpSecurity> configFormlogin(FormLoginConfigurer<HttpSecurity> login) {
         if(authenticationHandlerAdapters!=null){
             for(AuthenticationHandlerAdapter authenticationHandlerAdapter : authenticationHandlerAdapters){
                 if(authenticationHandlerAdapter.support(getLoginType(null))){

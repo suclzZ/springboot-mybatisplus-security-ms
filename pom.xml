@@ -31,6 +31,11 @@
             <artifactId>nekohtml</artifactId>
             <version>1.9.21</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-jwt</artifactId>
+        </dependency>
         <!-- 子引入mybatis-plus相关的包 -->
         <dependency>
             <groupId>com.baomidou</groupId>
@@ -51,6 +56,11 @@
             <groupId>commons-beanutils</groupId>
             <artifactId>commons-beanutils
             </artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.jsonwebtoken</groupId>
+            <artifactId>jjwt</artifactId>
+            <version>0.9.0</version>
         </dependency>
 
         <!--webjars-->
@@ -79,7 +89,6 @@
             <artifactId>jstree</artifactId>
             <version>3.3.5</version>
         </dependency>
-
 
         <!-- springboot开发工具 记得设置下idea-->
         <dependency>
@@ -116,6 +125,13 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
                 <version>1.5.10.RELEASE</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.security</groupId>
+                <artifactId>spring-security-bom</artifactId>
+                <version>5.0.5.RELEASE</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
