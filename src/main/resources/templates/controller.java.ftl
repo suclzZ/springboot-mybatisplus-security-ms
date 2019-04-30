@@ -1,16 +1,8 @@
 package ${package.Controller};
 
-import com.baomidou.mybatisplus.core.conditions.Wrapper;
-import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.baomidou.mybatisplus.core.metadata.IPage;
-import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.sucl.sbmp.core.annotation.QueryCondition;
-import com.sucl.sbmp.core.annotation.QueryPage;
 import ${package.Entity}.${entity};
 import ${package.Service}.${table.serviceName};
 
-import org.springframework.web.bind.annotation.*;
-import org.springframework.beans.factory.annotation.*;
 import org.springframework.web.bind.annotation.RequestMapping;
 <#if restControllerStyle>
 import org.springframework.web.bind.annotation.RestController;
@@ -20,7 +12,6 @@ import org.springframework.stereotype.Controller;
 <#if superControllerClassPackage??>
 import ${superControllerClassPackage};
 </#if>
-import java.util.List;
 
 /**
  * <p>

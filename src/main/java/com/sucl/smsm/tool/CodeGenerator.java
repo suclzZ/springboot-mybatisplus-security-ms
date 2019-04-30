@@ -30,7 +30,7 @@ public class CodeGenerator {
     public static Map<String,List<String>> moduleTableMap = Maps.newHashMap();
 
     static{
-        moduleTableMap.put("sys",Arrays.asList("user","dept"));
+        moduleTableMap.put("system",Arrays.asList("user","dept","role","perm"));
     }
 
     public static void main(String[] args) {
@@ -81,11 +81,11 @@ public class CodeGenerator {
     public static void dataSourceConfig(AutoGenerator mpg){
         // 数据源配置
         DataSourceConfig dsc = new DataSourceConfig();
-        dsc.setUrl("jdbc:mysql://localhost:3306/sbmp?useUnicode=true&useSSL=false&characterEncoding=utf8");
+        dsc.setUrl("jdbc:mysql://localhost:3306/smsm?useUnicode=true&useSSL=false&characterEncoding=utf8");
         // dsc.setSchemaName("public");
         dsc.setDriverName("com.mysql.jdbc.Driver");
-        dsc.setUsername("sbmp");
-        dsc.setPassword("123456");
+        dsc.setUsername("smsm");
+        dsc.setPassword("smsm");
         mpg.setDataSource(dsc);
     }
 
@@ -93,7 +93,7 @@ public class CodeGenerator {
         // 包配置
         PackageConfig pc = new PackageConfig();
         pc.setModuleName(moduleName);//模块名
-        pc.setParent("com.sucl.sbmp");
+        pc.setParent("com.sucl.smsm");
         mpg.setPackageInfo(pc);
         return pc;
     }
@@ -128,10 +128,10 @@ public class CodeGenerator {
         StrategyConfig strategy = new StrategyConfig();
         strategy.setNaming(NamingStrategy.underline_to_camel);
         strategy.setColumnNaming(NamingStrategy.underline_to_camel);
-        strategy.setSuperEntityClass("com.sucl.sbmp.core.entity.BaseEntity");
+        strategy.setSuperEntityClass("com.sucl.smsm.core.model.BaseEntity");
         strategy.setEntityLombokModel(true);
         strategy.setRestControllerStyle(true);
-        strategy.setSuperControllerClass("com.sucl.sbmp.core.web.BaseController");
+        strategy.setSuperControllerClass("com.sucl.smsm.core.web.BaseController");
         strategy.setInclude(tableName);
 //        strategy.setSuperEntityColumns("id");
         strategy.setControllerMappingHyphenStyle(true);

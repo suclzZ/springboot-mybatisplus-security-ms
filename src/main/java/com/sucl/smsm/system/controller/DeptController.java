@@ -16,7 +16,7 @@ import com.sucl.smsm.core.web.BaseController;
  * @since 2018-12-08
  */
 @RestController
-@RequestMapping("/sys/dept")
+@RequestMapping("/system/dept")
 public class DeptController extends BaseController<DeptService,Dept> {
 
 }
