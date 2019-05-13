@@ -1,6 +1,8 @@
 package com.sucl.smsm.core.web;
 
 import com.sucl.smsm.core.dto.TreeUtils;
+import com.sucl.smsm.security.service.MenuProviderService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
@@ -15,6 +17,8 @@ import java.util.Map;
 public class IndexController {
 
     private static final String PAGE_PREFIX = "views/";
+    @Autowired
+    private MenuProviderService menuProviderService;
 
     @GetMapping("/hello")
     @ResponseBody
@@ -70,6 +74,11 @@ public class IndexController {
      */
     @RequestMapping(value = "/{pager}",method = RequestMethod.GET,produces = "text/html")//
     public String pageDispatcher(@PathVariable("pager") String pager,Map<String,Object> map){
+        if(menuProviderService!=null){
+            map.put("menuNav",menuProviderService.fullMenuNames(pager));
+            map.put("openNames",menuProviderService.fullMenuIds(pager));
+            map.put("activeName",menuProviderService.pageId(pager));
+        }
 //        pager = TreeUtils.pageDecode(pager);
 //        map.put("menu",menuProviderService.menuHtml(null,pager));
 //        Map<String,String> pnMap = sysMenuService.getPathNameMap();

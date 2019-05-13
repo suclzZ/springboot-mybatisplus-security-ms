@@ -12,7 +12,7 @@ import java.util.Collection;
 public class AbstractUserDetails extends User {
 
     public AbstractUserDetails(IUser iu){
-        super(iu.getUsername(),iu.getPassword(),iu.authorities());
+        super(iu.getUsername(),iu.getPassword(),iu.isEnabled(),iu.isAccountNonExpired(),iu.isCredentialsNonExpired(),iu.isAccountNonLocked(),iu.authorities());
     }
 
     public AbstractUserDetails(String username, String password, Collection<? extends GrantedAuthority> authorities) {

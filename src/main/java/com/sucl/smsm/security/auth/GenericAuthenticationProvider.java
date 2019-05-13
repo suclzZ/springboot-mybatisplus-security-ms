@@ -15,7 +15,7 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.util.Assert;
 
 /**
- * 默认的用户提供服务，参考{@link DaoAuthenticationProvider}
+ * AuthenticationProvider查询用户服务，参考{@link DaoAuthenticationProvider}
  *
  * @author sucl
  * @date 2019/4/30

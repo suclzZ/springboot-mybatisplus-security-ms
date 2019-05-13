@@ -1,68 +1,100 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
 <head>
-    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Main CSS-->
-    <link rel="stylesheet" type="text/css" th:href="@{/static/css/main.css}">
-    <!-- Font-icon css-->
-    <link rel="stylesheet" type="text/css" th:href="@{/webjars/font-awesome/css/font-awesome.min.css}"/>
+
+    <link rel="stylesheet" th:href="@{/static/css/login.css}">
+    <!-- import stylesheet -->
+    <link rel="stylesheet" th:href="@{/webjars/iview/dist/styles/iview.css}">
+    <!-- import  vue-->
+    <script type="text/javascript" th:src="@{/webjars/vue/dist/vue.min.js}"></script>
+    <!-- import iView -->
+    <script type="text/javascript" th:src="@{/webjars/iview/dist/iview.min.js}"></script>
+    <!-- i18n -->
+    <script type="text/javascript" th:src="@{/webjars/iview/dist/locale/zh-CN.js}"></script>
     <title>登录</title>
+
+    <script>
+        iview.lang('zh-CN');
+    </script>
 </head>
 <body>
-<section class="material-half-bg">
-    <div class="cover"></div>
-</section>
-<section class="login-content">
-    <div class="logo">
-        <!--<h1>Jh</h1>-->
+    <div id="login" class="login-container">
+        <div class="form-container">
+            <p class="title" slot="title">登录</p>
+            <i-form ref="formValue" :model="formValue" :rules="ruleValue" :label-width="0" class="form" method="POST">
+                <form-item prop="username">
+                    <i-input type="text" v-model="formValue.username" placeholder="用户名" name="username">
+                        <icon type="ios-person-outline" slot="prepend"></icon>
+                    </i-input>
+                </form-item>
+                <form-item prop="password">
+                    <i-input type="password" v-model="formValue.password" placeholder="密码" name="password" @keyup.enter.native="handleSubmit('formValue')" >
+                        <icon type="ios-lock-outline" slot="prepend"></icon>
+                    </i-input>
+                </form-item>
+                <form-item label="" prop="rememberMe">
+                    <checkbox v-model="formValue.rememberMe" name="rememberMe">记住我？</checkbox>
+                    <a href="javascript:;" style="float: right;">忘记密码</a>
+                </form-item>
+                <form-item>
+                    <i-button type="primary" @click="handleSubmit('formValue')" class="btn-submit">登录</i-button>
+                </form-item>
+            </i-form>
+        </div>
     </div>
-    <div class="login-box">
-        <!--th:action="@{/login}"-->
-        <form class="login-form" method="post">
-            <h3 class="login-head"><i class="fa fa-lg fa-fw fa-user"></i>SIGN IN</h3>
-            <div class="form-group">
-                <label class="control-label">用户名</label>
-                <input name="username" class="form-control" type="text" placeholder="username" autofocus>
-            </div>
-            <div class="form-group">
-                <label class="control-label">密码</label>
-                <input name=password"" class="form-control" type="password" placeholder="password">
-            </div>
-            <div class="form-group">
-                <div class="utility">
-                    <div class="animated-checkbox">
-                        <label>
-                            <input type="checkbox"><span class="label-text">记住我</span>
-                        </label>
-                    </div>
-                    <p class="semibold-text mb-2"><a href="#" data-toggle="flip">忘记密码 ?</a></p>
-                </div>
-            </div>
-            <!--<span>${session.SPRING_SECURITY_LAST_EXCEPTION.message}</span>-->
-            <div class="form-group btn-container">
-                <button class="btn btn-primary btn-block"><i class="fa fa-sign-in fa-lg fa-fw"></i>SIGN IN</button>
-            </div>
-        </form>
-    </div>
-</section>
-<!-- Essential javascripts for application to work-->
-<script src="webjars/jquery/jquery.min.js"></script>
-<script src="webjars/bootstrap/js/bootstrap.min.js"></script>
-<script src="static/js/plugins/popper.min.js"></script>
-<!--<script src="static/js/main.js"></script>-->
-<!-- The javascript plugin to display page loading on top-->
-<script src="static/js/plugins/pace.min.js"></script>
-<script type="text/javascript">
-    // Login Page Flipbox control
-    // $('.login-content [data-toggle="flip"]').click(function () {
-    //     $('.login-box').toggleClass('flipped');
-    //     return false;
-    // });
-    $('.login-box button').on('click',function () {
-        $('.login-form').submit();
-    })
-</script>
 </body>
+    <script>
+         new Vue({
+            el:'#login',
+            data() {
+                const validateUsername = (rule, value, callback) => {
+                        if (value === '') {
+                            callback(new Error('请输入用户名！'));
+                        } else {
+                            callback();
+                        }
+                    }
+                ;
+                const validatePassword = (rule, value, callback) => {
+                        if (value === '') {
+                            callback(new Error('请输入密码！'));
+                        } else {
+                            callback();
+                        }
+                    }
+                ;
+
+                return {
+                    formValue: {
+                        username: '',
+                        password: '',
+                        rememberMe: false
+                    },
+                    ruleValue: {
+                        username: [
+                            {validator: validateUsername, trigger: 'blur'}
+                        ],
+                        password: [
+                            {validator: validatePassword, trigger: 'blur'}
+                        ]
+                    }
+                }
+            },
+            methods: {
+                handleSubmit(name) {
+                    this.$refs[name].$el.submit();
+                    // this.$refs[name].validate((valid) => {
+                    //     if (valid) {
+                    //         this.$Message.success('Success!');
+                    //     } else {
+                    //         this.$Message.error('Fail!');
+                    //     }
+                    // })
+                }
+            }
+        });
+    </script>
 </html>

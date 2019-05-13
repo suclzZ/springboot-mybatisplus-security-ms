@@ -1,6 +1,7 @@
 package com.sucl.smsm.system.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.sucl.smsm.core.model.BaseEntity;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableField;
@@ -22,6 +23,7 @@ import java.util.List;
 @Data
 @EqualsAndHashCode(callSuper = true)
 //@Accessors(chain = true)
+@JsonIgnoreProperties({"password"})
 public class User extends BaseEntity implements IUser {
 
     private static final long serialVersionUID = 1L;
@@ -55,6 +57,9 @@ public class User extends BaseEntity implements IUser {
 
     @TableField("MEMO")
     private String memo;
+
+    @TableField(exist = false)
+    private String vo;
 
 
     @Override

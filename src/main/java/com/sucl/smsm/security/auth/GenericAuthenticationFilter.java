@@ -14,8 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  * 登录请求拦截，参考{@link UsernamePasswordAuthenticationFilter}
- * 结合  AuthenticationProvider
- * 通过返回的Authentication 即 AbstractAuthenticationToken
+ * 结合  AuthenticationProvider构建 Authentication 即 AbstractAuthenticationToken
  * 在 AuthenticationProvider 中构建不同的逻辑
  * @author sucl
  * @date 2019/4/29
@@ -30,12 +29,16 @@ public class GenericAuthenticationFilter extends AbstractAuthenticationProcessin
     private boolean postOnly = true;
 
     public GenericAuthenticationFilter() {
-        super(new AntPathRequestMatcher("/login", "POST"));
+        super(new AntPathRequestMatcher("/gic", "POST"));
     }
 
-    // ~ Methods
-    // ========================================================================================================
-
+    /**
+     * 通过用户的输入，构建token
+     * @param request
+     * @param response
+     * @return
+     * @throws AuthenticationException
+     */
     public Authentication attemptAuthentication(HttpServletRequest request,
                                                 HttpServletResponse response) throws AuthenticationException {
         if (postOnly && !request.getMethod().equals("POST")) {

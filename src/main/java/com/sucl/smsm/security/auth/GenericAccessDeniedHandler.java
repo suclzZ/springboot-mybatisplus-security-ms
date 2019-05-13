@@ -10,6 +10,8 @@ import java.io.IOException;
 
 /**
  * 访问拒绝
+ * http 403
+ * @see org.springframework.security.web.access.AccessDeniedHandlerImpl
  * @author sucl
  * @date 2019/4/30
  */

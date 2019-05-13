@@ -13,7 +13,7 @@ public class ControllerExceptionAdvice {
 
     @ExceptionHandler(Exception.class)
     public R handle(Exception e){
-
+        e.printStackTrace();
         return R.of(e.getMessage());
     }
 }

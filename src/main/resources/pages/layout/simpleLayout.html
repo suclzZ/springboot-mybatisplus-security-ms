@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html class="fixed" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title th:text="管理系统"></title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="Shortcut Icon" href="favicon.ico">
+    <!-- import css -->
+    <div th:replace="common/commons::common-css"></div>
+    <!-- import js -->
+    <div th:replace="common/commons::common-js"></div>
+    <script type="text/javascript" th:inline="javascript">
+        iview.lang('zh-CN');
+        /*<![CDATA[*/
+            window['contextPath'] = /*[[@{/}]]*/ ;
+        /*]]>*/
+    </script>
+</head>
+
+<body>
+     <!--head-->
+    <div th:replace="layout/head::head"></div>
+    <!-- left-->
+    <div th:replace="layout/left::left"></div>
+    <!--center-->
+    <div th:replace="layout/center::center"></div>
+
+<script th:inline="javascript">
+
+</script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorator="layout/layout">
+
+    <div th:fragment="app-content">
+        <div id="user">
+            <i-table border
+                     :columns="columns"
+                     :data="users">
+            </i-table>
+        </div>
+        <script th:src="@{/webjars/jquery/dist/jquery.min.js}"></script>
+        <script>
+            new Vue({
+                el: '#user',
+                data() {
+                    return {
+                        users: [],
+                        columns: [
+                            {
+                                title: '登录名',
+                                key: 'username'
+                            },
+                            {
+                                title: '用户名',
+                                key: 'userCaption'
+                            },
+                            {
+                                title: '年龄',
+                                key: 'age'
+                            },
+                            {
+                                title: '电话',
+                                key: 'telephone'
+                            },
+                            {
+                                title: '邮箱',
+                                key: 'email'
+                            }
+                        ]
+                    }
+                },
+                created(){
+                    this.getUsers();
+                },
+                methods: {
+                    getUsers:function () {
+                        var that = this;
+                        //异步加载无数据！！
+                        // axios.get(contextPath+'system/user')
+                        //     .then(function (res) {
+                        //         that.users = res.data;
+                        //     })
+                        $.ajax({
+                            url:contextPath+'system/user',
+                            async:false,
+                            success:function(res){
+                                that.users = res;
+                            }
+                        })
+                    }
+                }
+            });
+        </script>
+    </div>
+
+</html>

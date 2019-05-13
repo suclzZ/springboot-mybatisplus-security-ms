@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html class="fixed" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title th:text="管理系统"></title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="Shortcut Icon" href="favicon.ico">
+    <!-- import css -->
+    <div th:replace="common/commons::common-css"></div>
+    <!-- import js -->
+    <div th:replace="common/commons::common-js"></div>
+    <script type="text/javascript" th:inline="javascript">
+        iview.lang('zh-CN');
+        /*<![CDATA[*/
+            window['contextPath'] = /*[[@{/}]]*/
+        /*]]>*/
+    </script>
+</head>
+
+<body>
+    <div id="app" class="layout">
+        <layout>
+            <header>
+                <i-menu mode="horizontal" theme="dark" active-name="1">
+                    <div class="layout-logo"><span class="log-text">管理系统</span></div>
+                    <div class="layout-nav">
+                        <menu-item name="1">
+                            <icon type="ios-notifications-outline"></icon>
+                            消息
+                        </menu-item>
+                        <menu-item name="2">
+                            <icon type="md-volume-down" />
+                            提醒
+                        </menu-item>
+                        <menu-item name="3">
+                            <icon type="ios-mail-outline"></icon>
+                            邮件
+                        </menu-item>
+                    </div>
+                    <div class="layout-rignt">
+                        <menu-item>
+                            <span>管理员</span>
+                        </menu-item>
+                        <menu-item>
+                            <icon type="md-exit"></icon>
+                            <a th:href="@{/logout}">退出</a>
+                        </menu-item>
+                    </div>
+                </i-menu>
+            </header>
+            <layout>
+                <sider hide-trigger :style="{background: '#fff'}">
+                    <!--@on-select="goPage"-->
+                    <i-menu ref="side_menu" :open-names="openNames" :active-name="activeName"  theme="light" width="auto" accordion  class="app-left">
+                        <submenu v-for="menu in menus" :name="menu.id">
+                            <template slot="title">
+                                <icon :type="menu.style"></icon>
+                                {{menu.name}}
+                            </template>
+                            <!--@click.native="goPage"-->
+                            <menu-item v-for="m in menu.children" :name="m.id" :to="m.path">{{m.name}}</menu-item>
+                        </submenu>
+                    </i-menu>
+                </sider>
+                <layout :style="{padding: '0 24px 24px'}">
+                    <breadcrumb :style="{margin: '24px 0'}">
+                        <breadcrumb-item v-for="menu in menuNav">{{menu}}</breadcrumb-item>
+                    </breadcrumb>
+                    <content class="app-main">
+                        <div th:replace="::app-content"></div>
+                    </content>
+                </layout>
+            </layout>
+        </layout>
+    </div>
+
+    <!-- head-->
+    <!--<div th:replace="layout/head::head"></div>-->
+    <!--&lt;!&ndash; left&ndash;&gt;-->
+    <!--<div th:replace="layout/left::left"></div>-->
+    <!--&lt;!&ndash;center&ndash;&gt;-->
+    <!--<div th:replace="layout/center::center"></div>-->
+<script th:inline="javascript">
+    var vm = new Vue({
+        el:'#app',
+        data(){
+            return {
+                menus:[],
+                openNames:[],
+                activeName:'',
+                menuNav:['主页']
+            };
+        },
+        created:function () {
+            var that = this;
+            /*<![CDATA[*/
+                var _menuNav = /*[[${menuNav}]]*/
+                    _openNames = /*[[${openNames}]]*/
+                    _activeName = /*[[${activeName}]]*/
+                _menuNav && (this.menuNav = _menuNav);
+                _openNames && (this.openNames = _openNames);
+                _activeName && (this.activeName = _activeName);
+            /*]]>*/
+            axios.get(contextPath+'system/menu/tree')
+                .then(function (res) {
+                    that.menus = res.data;
+                    //自动构建的菜单需要加上处理
+                    that.$nextTick(() => {
+                        that.$refs.side_menu.updateOpened()
+                        that.$refs.side_menu.updateActiveName()
+                    })
+                })
+                .catch(function (error) {
+                    console.log(error);
+                });
+        },
+        methods:{
+            goPage:function (name) {
+                // window.location.hash = name;
+                // name && (window.location.href = name);
+            }
+        }
+    });
+
+</script>
+</body>
+</html>

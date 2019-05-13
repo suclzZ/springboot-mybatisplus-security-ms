@@ -5,8 +5,10 @@ import org.springframework.security.web.authentication.LoginUrlAuthenticationEnt
 
 /**
  * @see ExceptionTranslationFilter
- * 未登录或无权
  * 和AuthenticationFailureHandler的比较
+ * 未登录或无权时的跳转处理
+ * eg. 访问资源 /hello需要认证才行，则会通过该类处理
+ *
  *
  * @author sucl
  * @date 2019/4/30
@@ -16,5 +18,9 @@ public class GenericAuthenticationEntryPoint extends LoginUrlAuthenticationEntry
 
     public GenericAuthenticationEntryPoint(String loginFormUrl) {
         super(loginFormUrl);
+    }
+
+    public GenericAuthenticationEntryPoint() {
+        super("/glogin");
     }
 }

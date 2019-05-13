@@ -5,6 +5,8 @@ import org.springframework.boot.web.servlet.ErrorPage;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpStatus;
+import org.thymeleaf.spring4.SpringTemplateEngine;
+import org.thymeleaf.spring4.view.ThymeleafViewResolver;
 
 /**
  * @author sucl
@@ -27,4 +29,13 @@ public class ThymeleafConfig {
             container.addErrorPages();
         });
     }
+
+    @Bean
+    public ThymeleafViewResolver thymeleafViewResolver(SpringTemplateEngine templateEngine){
+        ThymeleafViewResolver thymeleafViewResolver = new ThymeleafViewResolver();thymeleafViewResolver.setContentType("text/html;charset=UTF-8");
+        thymeleafViewResolver.setCharacterEncoding("UTF-8");
+        thymeleafViewResolver.setTemplateEngine(templateEngine);
+        return thymeleafViewResolver;
+    }
+
 }

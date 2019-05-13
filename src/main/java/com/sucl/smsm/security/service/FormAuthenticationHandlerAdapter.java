@@ -1,6 +1,7 @@
 package com.sucl.smsm.security.service;
 
 import com.sucl.smsm.security.config.LoginType;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configurers.FormLoginConfigurer;
 import org.springframework.security.web.authentication.SavedRequestAwareAuthenticationSuccessHandler;
@@ -17,10 +18,12 @@ public class FormAuthenticationHandlerAdapter implements AuthenticationHandlerAd
     public boolean support(LoginType loginType) {
         return loginType == LoginType.FORM;
     }
+    @Value("${web.security.login-url:/login}")
+    public String defaultFailureUrl;
 
     @Override
     public void config(FormLoginConfigurer<HttpSecurity> login) {
         login.successHandler(new SavedRequestAwareAuthenticationSuccessHandler());
-        login.failureHandler(new SimpleUrlAuthenticationFailureHandler());
+        login.failureHandler(new SimpleUrlAuthenticationFailureHandler(defaultFailureUrl));
     }
 }

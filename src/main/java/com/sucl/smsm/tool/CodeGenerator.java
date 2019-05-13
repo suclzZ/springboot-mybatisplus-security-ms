@@ -30,7 +30,7 @@ public class CodeGenerator {
     public static Map<String,List<String>> moduleTableMap = Maps.newHashMap();
 
     static{
-        moduleTableMap.put("system",Arrays.asList("user","dept","role","perm"));
+        moduleTableMap.put("system",Arrays.asList("user","dept","role","perm","menu"));
     }
 
     public static void main(String[] args) {

@@ -5,8 +5,7 @@ import com.sucl.smsm.system.service.RoleService;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import com.sucl.smsm.core.web.BaseController;
-import java.util.List;
+import com.sucl.smsm.core.web.AbstractBaseController;
 
 /**
  * <p>
@@ -18,6 +17,6 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/system/role")
-public class RoleController extends BaseController<RoleService,Role> {
+public class RoleController extends AbstractBaseController<RoleService,Role> {
 
 }

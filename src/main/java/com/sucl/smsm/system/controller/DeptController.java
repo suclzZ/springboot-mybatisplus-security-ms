@@ -5,7 +5,7 @@ import com.sucl.smsm.system.service.DeptService;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import com.sucl.smsm.core.web.BaseController;
+import com.sucl.smsm.core.web.AbstractBaseController;
 
 /**
  * <p>
@@ -17,6 +17,6 @@ import com.sucl.smsm.core.web.BaseController;
  */
 @RestController
 @RequestMapping("/system/dept")
-public class DeptController extends BaseController<DeptService,Dept> {
+public class DeptController extends AbstractBaseController<DeptService,Dept> {
 
 }

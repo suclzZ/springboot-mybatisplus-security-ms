@@ -20,7 +20,6 @@ import java.util.Map;
  * @author hackyo
  * Created on 2017/12/8 9:20.
  */
-@Component
 public class JwtTokenHelper implements Serializable {
 
     /**

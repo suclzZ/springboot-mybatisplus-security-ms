@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sucl.smsm.system.mapper.MenuMapper">
+
+    <resultMap id="result_menu" type="com.sucl.smsm.system.entity.Menu">
+        <id property="menuId" column="menu_id1"></id>
+        <result property="menuName" column="menu_name1"></result>
+        <result property="path" column="path1"></result>
+        <result property="style" column="style1"></result>
+        <result property="leaf" column="leaf1"></result>
+        <association property="parentMenu" javaType="com.sucl.smsm.system.entity.Menu">
+            <id property="menuId" column="menu_id2"></id>
+            <result property="menuName" column="menu_name2"></result>
+            <result property="path" column="path2"></result>
+            <result property="style" column="style2"></result>
+            <result property="leaf" column="leaf2"></result>
+        </association>
+    </resultMap>
+    
+    <select id="selectWithParent" resultMap="result_menu">
+        select
+        m1.menu_id "menu_id1",m1.menu_name "menu_name1",m1.path "path1",m1.style "style1",m1.leaf "leaf1",
+        m2.menu_id "menu_id2",m2.menu_name "menu_name2",m2.path "path2",m2.style "style2",m2.leaf "leaf2"
+        from menu m1 LEFT JOIN menu m2 on m1.parent_menu = m2.menu_id
+    </select>
+
+    <select id="selectWithParentByPath" resultMap="result_menu" parameterType="String">
+        select
+        m1.menu_id "menu_id1",m1.menu_name "menu_name1",m1.path "path1",m1.style "style1",m1.leaf "leaf1",
+        m2.menu_id "menu_id2",m2.menu_name "menu_name2",m2.path "path2",m2.style "style2",m2.leaf "leaf2"
+        from menu m1 LEFT JOIN menu m2 on m1.parent_menu = m2.menu_id
+        <if test="path!='' and path!=null">
+            where m1.path = #{path}
+        </if>
+    </select>
+</mapper>

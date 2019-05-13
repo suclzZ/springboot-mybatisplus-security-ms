@@ -1,0 +1,35 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: url("../images/login.jpg") no-repeat left center;
+    background-size: 100%;
+}
+.login-container{
+    position: relative;
+    top: 50%;
+    margin: 0 auto;
+    margin-top: -150px;
+    width: 350px;
+    height: 300px;
+    background-color: #ffffff;
+    border-width: 0;
+    border-top-width: 0px;
+    border-radius: 3px;
+}
+.login-container>.form-container{
+    padding: 0 30px;
+}
+.login-container>.form-container .btn-submit{
+    width: 100%;
+}
+.login-container>.form-container>.title{
+    margin: 20px auto;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 30px;
+}

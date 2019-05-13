@@ -17,10 +17,9 @@ public class MybatisConfiguration {
      * @return
      */
     @Bean
-    @ConditionalOnProperty(name = "spring.profiles.active",havingValue = "dev")
     public PerformanceInterceptor performanceInterceptor() {
         PerformanceInterceptor performanceInterceptor = new PerformanceInterceptor();
-        performanceInterceptor.setMaxTime(1000);//sql 最大执行时长
+        performanceInterceptor.setMaxTime(10000);//sql 最大执行时长
         performanceInterceptor.setFormat(true);
         return performanceInterceptor;
     }

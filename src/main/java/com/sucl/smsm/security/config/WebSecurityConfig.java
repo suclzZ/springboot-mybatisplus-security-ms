@@ -11,6 +11,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;
 import org.springframework.security.authentication.AuthenticationProvider;
+import org.springframework.security.authentication.dao.DaoAuthenticationProvider;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
@@ -21,6 +22,8 @@ import org.springframework.security.config.annotation.web.configurers.FormLoginC
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 import org.springframework.util.StringUtils;
+import org.springframework.web.context.request.RequestContextHolder;
+import org.springframework.web.context.request.ServletRequestAttributes;
 import org.springframework.web.util.WebUtils;
 
 import javax.servlet.http.HttpServletRequest;
@@ -41,22 +44,25 @@ import java.util.Map;
 @EnableGlobalMethodSecurity(prePostEnabled = true)
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     /**
-     * 基础配置
+     * 配置项
      */
     @Autowired
     private WebSecurityProperties properties;
+    /**
+     * 如果有值，则使用默认的{@link DaoAuthenticationProvider}，同时作为Parent Provinder
+     */
     @Autowired(required = false)
     private UserDetailsService userDetailsService;
     /**
-     * 前置过滤器配置
+     * 前置过滤器配置，设置在{@link UsernamePasswordAuthenticationFilter}前
      */
     private List<PreAbstractAuthenticationFilter> preAuthenticationProcessingFilters;
     /**
-     * 认证相关
+     * 认证相关，支持多种认证方式
      */
     private List<AuthenticationProvider> authenticationProviders;
     /**
-     * 认证成功/失败处理器
+     * 认证成功/失败处理器，根据不同类型的认证方式进行扩展
      */
     private List<AuthenticationHandlerAdapter> authenticationHandlerAdapters;
 
@@ -92,7 +98,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
      */
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
-        if(userDetailsService!=null){//parentAuthenticationManager->
+        if(userDetailsService!=null){//parentAuthenticationManager
             auth.userDetailsService(userDetailsService);
         }
         if(authenticationProviders!=null && authenticationProviders.size()>0){
@@ -122,12 +128,21 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
         http.csrf().disable();
 
+        //权限控制
+//        http.authorizeRequests()
+//                .mvcMatchers("").access("hasRole('ADMIN') or hasRole('USER')")//表达式
+//                .mvcMatchers("").hasRole("ADMIN")//角色，默认ROLE_前缀
+//                .mvcMatchers("").hasAuthority("ROLE_ADMIN");//无ROLE_前缀
+        //认证控制
         http.authorizeRequests()
             .antMatchers(HttpMethod.GET,properties.getLoginUrl()).permitAll()
             .anyRequest().authenticated()
             .and().exceptionHandling().authenticationEntryPoint(new GenericAuthenticationEntryPoint(properties.getLoginUrl()))
             .and().logout().permitAll();
-
+        //
+        http.rememberMe().rememberMeParameter("rememberMe");
+//        http.anonymous();
+        //form表单
         FormLoginConfigurer<HttpSecurity> login = http.formLogin()
                 .loginPage(properties.getLoginUrl())
                 .defaultSuccessUrl(properties.getLoginSuccess())
@@ -138,11 +153,12 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
         configFormlogin(login);
 
+        http.rememberMe();
         //session失效后跳转
         http.sessionManagement().invalidSessionUrl(properties.getLoginUrl());
         //只允许一个用户登录,如果同一个账户两次登录,那么第一个账户将被踢下线,跳转到登录页面
         http.sessionManagement().maximumSessions(1).expiredUrl(properties.getLoginUrl());
-
+        //前置过滤器
         if(preAuthenticationProcessingFilters!=null){
             for(PreAbstractAuthenticationFilter preAuthenticationProcessingFilter :preAuthenticationProcessingFilters){
                 http.addFilterBefore(preAuthenticationProcessingFilter,UsernamePasswordAuthenticationFilter.class);
@@ -153,7 +169,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     protected FormLoginConfigurer<HttpSecurity> configFormlogin(FormLoginConfigurer<HttpSecurity> login) {
         if(authenticationHandlerAdapters!=null){
             for(AuthenticationHandlerAdapter authenticationHandlerAdapter : authenticationHandlerAdapters){
-                if(authenticationHandlerAdapter.support(getLoginType(null))){
+                if(authenticationHandlerAdapter.support(loginType(null))){
                     authenticationHandlerAdapter.config(login);
                 }
             }
@@ -166,7 +182,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
      * @param request
      * @return
      */
-    private LoginType getLoginType(HttpServletRequest request) {
+    private LoginType loginType(HttpServletRequest request) {
         String loginType = null;
         if(request!=null){
             loginType = WebUtils.findParameterValue(request, "loginType");

@@ -1,12 +1,12 @@
 package com.sucl.smsm.system.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.sucl.smsm.security.service.UserProvidor;
 import com.sucl.smsm.security.user.IUser;
 import com.sucl.smsm.system.entity.User;
 import com.sucl.smsm.system.mapper.UserMapper;
 import com.sucl.smsm.system.service.UserService;
-import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

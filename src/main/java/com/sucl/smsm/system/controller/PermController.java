@@ -5,8 +5,7 @@ import com.sucl.smsm.system.service.PermService;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import com.sucl.smsm.core.web.BaseController;
-import java.util.List;
+import com.sucl.smsm.core.web.AbstractBaseController;
 
 /**
  * <p>
@@ -18,6 +17,6 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/system/perm")
-public class PermController extends BaseController<PermService,Perm> {
+public class PermController extends AbstractBaseController<PermService,Perm> {
 
 }

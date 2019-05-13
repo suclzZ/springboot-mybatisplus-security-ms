@@ -24,13 +24,11 @@ import java.io.IOException;
  * @author hackyo
  * Created on 2017/12/8 9:28.
  */
-@Component
 public class JwtAuthenticationTokenFilter extends PreAbstractAuthenticationFilter {
 
     private UserDetailsService userDetailsService;
     private JwtTokenHelper jwtTokenHelper;
 
-    @Autowired
     public JwtAuthenticationTokenFilter(UserDetailsService userDetailsService, JwtTokenHelper jwtTokenHelper) {
         this.userDetailsService = userDetailsService;
         this.jwtTokenHelper = jwtTokenHelper;
