@@ -38,13 +38,16 @@
                             邮件
                         </menu-item>
                     </div>
-                    <div class="layout-rignt">
+                    <divider type="vertical" />
+                </i-menu>
+                <i-menu mode="horizontal" theme="dark" class="layout-header-rignt">
+                    <div class="">
                         <menu-item>
                             <span>管理员</span>
                         </menu-item>
                         <menu-item>
-                            <icon type="md-exit"></icon>
-                            <a th:href="@{/logout}">退出</a>
+                            <icon type="md-exit" style="font-size: 18px"></icon>
+                            <a th:href="@{/logout}"></a>
                         </menu-item>
                     </div>
                 </i-menu>
@@ -64,7 +67,7 @@
                     </i-menu>
                 </sider>
                 <layout :style="{padding: '0 24px 24px'}">
-                    <breadcrumb :style="{margin: '24px 0','padding-left': '200px'}" v-cloak>
+                    <breadcrumb :style="{margin: '24px 0','padding-left': '200px',position: 'absolute',top: '60px'}" v-cloak>
                         <breadcrumb-item v-for="menu in menuNav">{{menu}}</breadcrumb-item>
                     </breadcrumb>
                     <content class="app-main">

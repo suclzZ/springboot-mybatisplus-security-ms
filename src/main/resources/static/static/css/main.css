@@ -28,11 +28,14 @@
 .layout-nav{
     width: 420px;
     margin: 0 auto;
-    margin-right: 50px;
+    margin-right: 35px;
 }
-.layout-rignt{
+.layout-header-rignt{
     /*width: 420px;*/
     margin: 0 auto;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 .app-main{
     padding: 24px;
