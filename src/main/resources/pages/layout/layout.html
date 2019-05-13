@@ -19,9 +19,9 @@
 </head>
 
 <body>
-    <div id="app" class="layout">
-        <layout>
-            <header>
+    <div id="app" class="layout layout-full">
+        <layout class="menu-container">
+            <header v-cloak>
                 <i-menu mode="horizontal" theme="dark" active-name="1">
                     <div class="layout-logo"><span class="log-text">管理系统</span></div>
                     <div class="layout-nav">
@@ -50,10 +50,10 @@
                 </i-menu>
             </header>
             <layout>
-                <sider hide-trigger :style="{background: '#fff'}">
+                <sider hide-trigger :style="{background: '#fff'}" class="layout-menu">
                     <!--@on-select="goPage"-->
                     <i-menu ref="side_menu" :open-names="openNames" :active-name="activeName"  theme="light" width="auto" accordion  class="app-left">
-                        <submenu v-for="menu in menus" :name="menu.id">
+                        <submenu v-for="menu in menus" :name="menu.id" v-cloak>
                             <template slot="title">
                                 <icon :type="menu.style"></icon>
                                 {{menu.name}}
@@ -64,7 +64,7 @@
                     </i-menu>
                 </sider>
                 <layout :style="{padding: '0 24px 24px'}">
-                    <breadcrumb :style="{margin: '24px 0'}">
+                    <breadcrumb :style="{margin: '24px 0'}" v-cloak>
                         <breadcrumb-item v-for="menu in menuNav">{{menu}}</breadcrumb-item>
                     </breadcrumb>
                     <content class="app-main">
@@ -74,13 +74,6 @@
             </layout>
         </layout>
     </div>
-
-    <!-- head-->
-    <!--<div th:replace="layout/head::head"></div>-->
-    <!--&lt;!&ndash; left&ndash;&gt;-->
-    <!--<div th:replace="layout/left::left"></div>-->
-    <!--&lt;!&ndash;center&ndash;&gt;-->
-    <!--<div th:replace="layout/center::center"></div>-->
 <script th:inline="javascript">
     var vm = new Vue({
         el:'#app',
@@ -110,9 +103,6 @@
                         that.$refs.side_menu.updateOpened()
                         that.$refs.side_menu.updateActiveName()
                     })
-                })
-                .catch(function (error) {
-                    console.log(error);
                 });
         },
         methods:{

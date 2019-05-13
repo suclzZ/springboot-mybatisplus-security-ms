@@ -1,9 +1,19 @@
+[v-cloak]{
+    display: none;
+}
 .layout{
     border: 1px solid #d7dde4;
     background: #f5f7f9;
     position: relative;
     border-radius: 4px;
     overflow: hidden;
+}
+.layout-full{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 .layout-logo{
     width: 100px;
@@ -35,7 +45,12 @@
     left: 225px;
 }
 .app-left{
-    height:500px;
+    /*height:550px;*/
+}
+.layout-menu{
+    position: absolute;
+    bottom: 0;
+    top: 60px;
 }
 .log-text{
     position: absolute;
